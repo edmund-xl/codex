@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MegaETH AI Security</title>
+  <link rel="stylesheet" href="/static/styles.css?v=20260314-1828" />
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">[ ]</div>
+        <div class="eyebrow">MegaETH</div>
+        <h1>AI Security Platform</h1>
+        <p id="brand-copy">统一接收安全材料，自动完成归一化、技能分配、风险判断和记忆学习。</p>
+        <div class="lang-switch" aria-label="language switch">
+          <button id="lang-zh" class="lang-btn active" type="button">中文</button>
+          <button id="lang-en" class="lang-btn" type="button">EN</button>
+        </div>
+      </div>
+      <nav class="menu">
+        <button class="menu-item active" data-view="overview" type="button">概览</button>
+        <button class="menu-item" data-view="intake" type="button">输入</button>
+        <button class="menu-item" data-view="skills" type="button">能力</button>
+        <button class="menu-item" data-view="integrations" type="button">集成</button>
+        <button class="menu-item" data-view="memory" type="button">学习</button>
+      </nav>
+      <div class="rail-card">
+        <div id="system-status-label" class="rail-label">System Status</div>
+        <div id="health-badge" class="health-badge idle">Checking...</div>
+        <p id="sidebar-copy">当前会优先恢复你最关心的分析链路、报告和记忆纠偏能力。</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero panel">
+        <div>
+          <div id="hero-eyebrow" class="eyebrow">MegaETH Security Platform</div>
+          <h2 id="view-title">Overview</h2>
+          <p id="view-copy">查看当前平台状态、近期输出和分析工作流。</p>
+        </div>
+      </section>
+
+      <section class="view active" data-section="overview">
+        <section class="overview-shell">
+          <div class="stack-panels">
+            <section class="panel">
+              <div class="panel-head">
+                <h3 id="section-overview-title">平台概览</h3>
+                <button id="refresh-overview" class="ghost" type="button">Refresh</button>
+              </div>
+              <div id="overview-output" class="stack-list loading-copy">Loading...</div>
+            </section>
+            <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-history-title">历史记录</h3>
+              <button id="refresh-history" class="ghost" type="button">Refresh</button>
+            </div>
+            <div id="history-output" class="stack-list loading-copy">Loading...</div>
+            </section>
+          </div>
+          <div class="stack-panels">
+            <section class="panel">
+              <div class="panel-head">
+                <h3 id="section-reports-title">近期报告</h3>
+                <button id="refresh-reports" class="ghost" type="button">Refresh</button>
+              </div>
+              <div id="reports-output" class="stack-list loading-copy">Loading...</div>
+            </section>
+            <section class="panel">
+              <div class="panel-head">
+                <h3 id="section-investigations-title">调查会话</h3>
+                <button id="refresh-investigations" class="ghost" type="button">Refresh</button>
+              </div>
+              <div id="investigations-output" class="stack-list loading-copy">Loading...</div>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" data-section="intake">
+        <section class="grid two-col">
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-intake-input-title">统一输入</h3>
+              <div class="toolbar-inline">
+                <label class="upload-chip">
+                  <input id="file-upload" type="file" multiple accept=".txt,.log,.json,.csv,.yaml,.yml,.md,.pdf" />
+                  <span id="upload-files-label">Upload Files</span>
+                </label>
+                <button id="load-sample" class="ghost" type="button">加载示例</button>
+              </div>
+            </div>
+            <textarea id="raw-input" spellcheck="false"></textarea>
+            <div class="actions">
+              <button id="analyze" type="button">归一化后分析</button>
+              <button id="preview-plan" class="ghost" type="button">刷新预览</button>
+              <button id="preview-normalize" class="ghost" type="button">只看归一化结果</button>
+            </div>
+            <div id="intake-status" class="status-line">Ready</div>
+          </section>
+          <div class="stack-panels">
+            <section class="panel">
+              <div class="panel-head">
+                <h3 id="section-planner-title">技能分配预览</h3>
+              </div>
+              <div id="planner-output" class="stack-list loading-copy">Waiting for preview</div>
+            </section>
+            <section class="panel">
+              <div class="panel-head">
+                <h3 id="section-normalize-title">归一化结果</h3>
+              </div>
+              <pre id="normalize-output">Waiting for input</pre>
+            </section>
+          </div>
+        </section>
+        <section class="grid two-col">
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-report-title">Security Report</h3>
+            </div>
+            <div class="toolbar-inline" style="margin-top:12px;">
+              <button id="learn-current-memory-intake" class="ghost" type="button">这次分类正确，记住它</button>
+              <button id="show-correction-form" class="ghost" type="button">这次分类不对，我来纠正</button>
+            </div>
+            <div id="intake-learn-status" class="status-line">分析完成后，你可以直接在这里让系统学习这次结果。</div>
+            <div id="correction-form" class="correction-form hidden">
+              <div class="toolbar-inline">
+                <select id="correction-source-type" class="filter-input"></select>
+                <select id="correction-event-type" class="filter-input"></select>
+              </div>
+              <div style="margin-top:10px;">
+                <label id="correction-skills-label" class="field-label" for="correction-skills">选择正确的分析能力</label>
+                <select id="correction-skills" class="multi-select" multiple></select>
+              </div>
+              <div class="toolbar-inline" style="margin-top:10px;">
+                <button id="save-correction" class="ghost" type="button">保存这次纠正</button>
+              </div>
+            </div>
+            <div id="report-output" class="stack-list loading-copy">Waiting to run</div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-file-runs-title">Uploaded File Runs</h3>
+            </div>
+            <div id="file-runs-output" class="stack-list loading-copy">No uploaded runs yet</div>
+          </section>
+        </section>
+      </section>
+
+      <section class="view" data-section="skills">
+        <section class="grid two-col">
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-installed-skills-title">Installed Skills</h3>
+              <button id="refresh-skills" class="ghost" type="button">Refresh</button>
+            </div>
+            <div class="toolbar-inline" style="margin-top:12px;">
+              <input id="skills-search" class="search-input" type="text" placeholder="搜索能力 / 模块 / 引擎" />
+              <select id="skills-filter" class="filter-input">
+                <option value="all">全部模块</option>
+                <option value="cicd">CI/CD</option>
+                <option value="endpoint">Endpoint</option>
+                <option value="host">Host</option>
+                <option value="cloud">Cloud</option>
+                <option value="easm">EASM</option>
+                <option value="key">Key</option>
+                <option value="identity">Identity</option>
+              </select>
+            </div>
+            <div id="skills-output" class="stack-list loading-copy">Loading...</div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-skill-matrix-title">Skill Matrix</h3>
+              <button id="refresh-matrix" class="ghost" type="button">Refresh</button>
+            </div>
+            <div id="matrix-output" class="stack-list loading-copy">Loading...</div>
+          </section>
+        </section>
+      </section>
+
+      <section class="view" data-section="memory">
+        <section class="panel">
+          <div class="panel-head">
+            <h3 id="section-memory-learn-title">从当前结果学习</h3>
+            <button id="learn-current-memory" class="ghost" type="button">记住当前分类</button>
+          </div>
+          <p id="memory-learn-copy" class="card-copy">当你确认当前这份材料已经被正确归类后，可以把它保存成记忆规则，后续相似文件会优先走相同的 source type、event type 和 skills。</p>
+          <div id="memory-learn-status" class="status-line">等待你在 Intake 中完成一次正确分析。</div>
+        </section>
+        <section class="grid two-col">
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-memory-rules-title">Memory Rules</h3>
+              <button id="refresh-memory-rules" class="ghost" type="button">Refresh</button>
+            </div>
+            <div class="toolbar-inline" style="margin-top:12px;">
+              <input id="memory-search" class="search-input" type="text" placeholder="搜索学习记录 / 文件 / 事件" />
+            </div>
+            <div id="memory-rules-output" class="stack-list loading-copy">Loading...</div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-memory-feedback-title">Memory Feedback</h3>
+              <button id="refresh-memory-feedback" class="ghost" type="button">Refresh</button>
+            </div>
+            <div id="memory-feedback-output" class="stack-list loading-copy">Loading...</div>
+          </section>
+        </section>
+      </section>
+
+      <section class="view" data-section="integrations">
+        <section class="grid">
+          <section class="panel">
+            <div class="panel-head">
+              <h3 id="section-bitdefender-title">Bitdefender</h3>
+              <button id="run-bitdefender-test" class="ghost" type="button">验证连接</button>
+            </div>
+            <p id="bitdefender-copy" class="card-copy">这里接入的是 Bitdefender GravityZone。当前优先支持终端与资产清单、可用报表目录，以及最新报表的下载链接。</p>
+            <div class="toolbar-inline" style="margin-top:12px;">
+              <button id="run-bitdefender-network" class="ghost" type="button">读取终端与资产清单</button>
+              <button id="import-bitdefender-network" class="ghost" type="button">导入终端资产到平台</button>
+              <button id="run-bitdefender-reports" class="ghost" type="button">读取可用报表目录</button>
+              <button id="run-bitdefender-report-links" class="ghost" type="button">获取最新报表下载链接</button>
+              <button id="import-bitdefender-latest-report" class="ghost" type="button">导入最新报表内容</button>
+              <button id="import-bitdefender-reports" class="ghost" type="button">导入报表目录元数据</button>
+              <button id="run-bitdefender-incidents" class="ghost" type="button">检查事件接口可用性</button>
+            </div>
+            <div id="bitdefender-status" class="status-line">等待连接测试。</div>
+            <div id="bitdefender-output" class="stack-list loading-copy">还没有 Bitdefender 返回结果。</div>
+          </section>
+        </section>
+      </section>
+    </main>
+  </div>
+  <script src="/static/app.js?v=20260314-1828"></script>
+</body>
+</html>
