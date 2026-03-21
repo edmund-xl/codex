@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PORT="${PORT:-8010}"
+PORT="${PORT:-8011}"
 LABEL="ai.megaeth.security.${PORT}"
 PLIST_PATH="${HOME}/Library/LaunchAgents/${LABEL}.plist"
 

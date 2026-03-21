@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PORT="${PORT:-8010}"
+PORT="${PORT:-8011}"
 PID_FILE="${ROOT_DIR}/.run-${PORT}.pid"
 LOG_FILE="${ROOT_DIR}/.run-${PORT}.log"
 SCREEN_NAME="megaeth-ai-security-${PORT}"

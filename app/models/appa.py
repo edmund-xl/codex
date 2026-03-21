@@ -36,6 +36,9 @@ class AppaSkillPack(BaseModel):
     mode: str
     phase: str
     summary: LocalizedText
+    primary_provider_id: str | None = None
+    conditional_provider_id: str | None = None
+    route_policy: LocalizedText | None = None
 
 
 class AppaRole(BaseModel):
@@ -57,6 +60,29 @@ class AppaWorkItem(BaseModel):
     accent: str = "note"
 
 
+class AppaProvider(BaseModel):
+    provider_id: str
+    provider_type: str
+    display_name: LocalizedText
+    invocation_kind: str
+    allowed_modes: list[str] = Field(default_factory=list)
+    environments: list[str] = Field(default_factory=list)
+    legal_review_required: bool = False
+    approval_required: bool = False
+    supported_skills: list[str] = Field(default_factory=list)
+    notes: LocalizedText
+
+
+class AppaProviderRoute(BaseModel):
+    skill_id: str
+    primary_provider_id: str
+    conditional_provider_id: str | None = None
+    trigger_condition: LocalizedText
+    blocked_providers: list[str] = Field(default_factory=list)
+    current_resolution: str
+    current_reason: LocalizedText
+
+
 class AppaOverview(BaseModel):
     product_key: str
     product_name: LocalizedText
@@ -71,6 +97,8 @@ class AppaOverview(BaseModel):
     attack_paths: list[AppaWorkItem] = Field(default_factory=list)
     evidence_lanes: list[AppaWorkItem] = Field(default_factory=list)
     roadmap: list[AppaWorkItem] = Field(default_factory=list)
+    providers: list[AppaProvider] = Field(default_factory=list)
+    provider_routes: list[AppaProviderRoute] = Field(default_factory=list)
 
 
 class AppaTarget(BaseModel):

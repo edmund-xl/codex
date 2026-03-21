@@ -1004,17 +1004,17 @@ body.view-pentest-active .main-shell {
 
 .appa-shell {
   display: grid;
-  gap: 18px;
-  padding: 8px 4px 16px;
+  gap: 14px;
+  padding: 4px 0 12px;
 }
 
 .appa-topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: clamp(14px, 1vw, 20px);
-  padding: clamp(12px, 0.95vw, 16px) clamp(14px, 1.1vw, 20px);
-  border-radius: 22px;
+  gap: clamp(10px, 0.8vw, 16px);
+  padding: clamp(10px, 0.78vw, 13px) clamp(12px, 0.9vw, 16px);
+  border-radius: 18px;
   background:
     linear-gradient(180deg, rgba(13, 16, 23, 0.96), rgba(8, 10, 15, 0.98)),
     radial-gradient(circle at top left, rgba(129, 236, 255, 0.08), transparent 32%);
@@ -1027,12 +1027,12 @@ body.view-pentest-active .main-shell {
 .appa-topbar-right {
   display: flex;
   align-items: center;
-  gap: clamp(12px, 0.9vw, 18px);
+  gap: clamp(10px, 0.75vw, 14px);
 }
 
 .appa-wordmark {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1.35rem, 1.05rem + 0.95vw, 1.9rem);
+  font-size: clamp(1.08rem, 0.9rem + 0.55vw, 1.42rem);
   font-weight: 700;
   letter-spacing: 0.01em;
   color: rgba(129, 236, 255, 0.96);
@@ -1041,16 +1041,16 @@ body.view-pentest-active .main-shell {
 .appa-product-tabs {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .appa-tab {
   border: 0;
   background: transparent;
   color: rgba(197, 205, 226, 0.64);
-  font-size: clamp(0.88rem, 0.78rem + 0.25vw, 1rem);
+  font-size: clamp(0.78rem, 0.72rem + 0.16vw, 0.9rem);
   font-weight: 500;
-  padding: 8px 4px 10px;
+  padding: 6px 4px 8px;
   border-bottom: 2px solid transparent;
   cursor: pointer;
 }
@@ -1061,8 +1061,8 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-icon-button {
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   border-radius: 999px;
   border: 0;
   background: rgba(26, 31, 40, 0.92);
@@ -1072,8 +1072,8 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-avatar {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   border-radius: 999px;
   display: grid;
   place-items: center;
@@ -1084,7 +1084,7 @@ body.view-pentest-active .main-shell {
 
 .appa-body {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 1fr);
   gap: var(--panel-gap);
 }
 
@@ -1092,44 +1092,44 @@ body.view-pentest-active .main-shell {
   display: grid;
   gap: var(--panel-gap);
   align-content: start;
-  padding: clamp(14px, 1vw, 18px);
-  border-radius: 26px;
+  padding: clamp(12px, 0.86vw, 15px);
+  border-radius: 20px;
   background: linear-gradient(180deg, rgba(12, 15, 23, 0.96), rgba(8, 10, 14, 0.98));
   box-shadow: inset 0 0 0 1px rgba(115, 126, 156, 0.14);
 }
 
 .appa-operator-card {
   display: grid;
-  grid-template-columns: 52px minmax(0, 1fr);
-  gap: 12px;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 10px;
   align-items: center;
-  padding: clamp(12px, 0.9vw, 16px);
-  border-radius: 20px;
+  padding: clamp(10px, 0.75vw, 13px);
+  border-radius: 16px;
   background: linear-gradient(180deg, rgba(38, 43, 56, 0.82), rgba(23, 27, 36, 0.84));
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 
 .appa-operator-icon {
-  width: clamp(44px, 3vw, 52px);
-  height: clamp(44px, 3vw, 52px);
-  border-radius: 14px;
+  width: clamp(38px, 2.4vw, 44px);
+  height: clamp(38px, 2.4vw, 44px);
+  border-radius: 12px;
   display: grid;
   place-items: center;
-  font-size: clamp(1.1rem, 0.95rem + 0.45vw, 1.4rem);
+  font-size: clamp(0.96rem, 0.84rem + 0.28vw, 1.12rem);
   background: linear-gradient(180deg, rgba(129, 236, 255, 0.22), rgba(75, 184, 215, 0.16));
   color: rgba(129, 236, 255, 0.98);
 }
 
 .appa-operator-card strong {
   display: block;
-  font-size: clamp(0.94rem, 0.84rem + 0.28vw, 1.08rem);
+  font-size: clamp(0.84rem, 0.78rem + 0.18vw, 0.96rem);
   color: rgba(244, 247, 255, 0.96);
 }
 
 .appa-operator-card p {
   margin: 4px 0 0;
   color: rgba(166, 176, 198, 0.72);
-  font-size: 0.84rem;
+  font-size: 0.74rem;
   letter-spacing: 0.08em;
 }
 
@@ -1142,13 +1142,13 @@ body.view-pentest-active .main-shell {
   display: grid;
   grid-template-columns: 22px minmax(0, 1fr);
   align-items: center;
-  gap: 14px;
-  padding: clamp(13px, 0.9vw, 16px) clamp(14px, 1vw, 18px);
+  gap: 12px;
+  padding: clamp(10px, 0.7vw, 13px) clamp(12px, 0.84vw, 15px);
   border: 0;
-  border-radius: 18px;
+  border-radius: 14px;
   background: transparent;
   color: rgba(174, 187, 214, 0.72);
-  font-size: clamp(0.88rem, 0.78rem + 0.26vw, 1rem);
+  font-size: clamp(0.78rem, 0.72rem + 0.16vw, 0.9rem);
   text-align: left;
   cursor: pointer;
 }
@@ -1166,10 +1166,10 @@ body.view-pentest-active .main-shell {
 .appa-launch-button,
 .appa-logout-button {
   width: 100%;
-  min-height: clamp(48px, 3.2vw, 56px);
-  border-radius: 18px;
+  min-height: clamp(40px, 2.6vw, 46px);
+  border-radius: 14px;
   border: 0;
-  font-size: clamp(0.9rem, 0.8rem + 0.22vw, 1rem);
+  font-size: clamp(0.8rem, 0.74rem + 0.16vw, 0.9rem);
   font-weight: 600;
   cursor: pointer;
 }
@@ -1190,8 +1190,8 @@ body.view-pentest-active .main-shell {
 .appa-workbench {
   display: grid;
   gap: var(--panel-gap);
-  padding: clamp(14px, 1vw, 18px) clamp(16px, 1.2vw, 22px) clamp(16px, 1.2vw, 22px);
-  border-radius: 30px;
+  padding: clamp(12px, 0.82vw, 15px) clamp(14px, 1vw, 18px) clamp(14px, 1vw, 18px);
+  border-radius: 22px;
   background:
     linear-gradient(180deg, rgba(12, 14, 19, 0.98), rgba(9, 10, 14, 0.98)),
     radial-gradient(circle at top right, rgba(102, 58, 255, 0.08), transparent 34%);
@@ -1203,8 +1203,8 @@ body.view-pentest-active .main-shell {
 .appa-nav-context {
   display: grid;
   gap: 8px;
-  padding: 14px 18px;
-  border-radius: 18px;
+  padding: 12px 14px;
+  border-radius: 14px;
   background: linear-gradient(180deg, rgba(16, 18, 26, 0.9), rgba(10, 12, 18, 0.96));
   box-shadow: inset 0 0 0 1px rgba(129, 236, 255, 0.08);
 }
@@ -1232,66 +1232,148 @@ body.view-pentest-active .main-shell {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: clamp(14px, 1vw, 20px);
+  gap: clamp(10px, 0.8vw, 16px);
 }
 
 .appa-run-status {
   margin-bottom: 8px;
   color: rgba(129, 236, 255, 0.9);
-  font-size: clamp(0.78rem, 0.66rem + 0.28vw, 0.94rem);
-  letter-spacing: 0.22em;
+  font-size: clamp(0.68rem, 0.62rem + 0.14vw, 0.8rem);
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
 .appa-mission-header h3 {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(2rem, 1.3rem + 2.2vw, 3.15rem);
-  line-height: 1.02;
+  font-size: clamp(1.42rem, 1.02rem + 1.2vw, 2.1rem);
+  line-height: 1.05;
   color: rgba(248, 249, 255, 0.98);
 }
 
 .appa-mission-actions {
   display: flex;
   align-items: center;
-  gap: clamp(12px, 0.9vw, 18px);
+  gap: clamp(8px, 0.54vw, 12px);
+  align-self: center;
+}
+
+.appa-flow-strip {
+  display: grid;
+  gap: 8px;
+  padding: 4px 0 2px;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.appa-flow-head {
+  display: grid;
+  gap: 3px;
+}
+
+.appa-flow-head strong {
+  font-size: 0.72rem;
+  color: rgba(155, 168, 194, 0.78);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.appa-flow-head p {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: rgba(170, 181, 204, 0.72);
+}
+
+.appa-flow-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid rgba(70, 72, 77, 0.18);
+}
+
+.appa-flow-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  min-height: 34px;
+  padding: 0 4px 8px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(197, 205, 226, 0.62);
+  background: transparent;
+  box-shadow: none;
+  transition: background 160ms ease, color 160ms ease, box-shadow 160ms ease;
+  border-bottom: 2px solid transparent;
+}
+
+.appa-flow-step strong {
+  font-size: 0.78rem;
+  color: inherit;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.appa-flow-step.active {
+  color: rgba(129, 236, 255, 0.96);
+  background: transparent;
+  box-shadow: none;
+  border-bottom-color: rgba(129, 236, 255, 0.96);
+}
+
+.appa-flow-step.active strong {
+  color: inherit;
 }
 
 .appa-mode-card {
-  display: grid;
+  display: inline-flex;
+  align-items: center;
   gap: 10px;
-  min-width: min(420px, 42vw);
-  padding: clamp(12px, 0.9vw, 16px) clamp(14px, 1vw, 18px);
-  border-radius: 18px;
+  min-width: auto;
+  padding: 8px 10px;
+  border-radius: 12px;
   background: linear-gradient(180deg, rgba(22, 25, 33, 0.96), rgba(14, 17, 24, 0.98));
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 .appa-mode-card span {
   color: rgba(144, 156, 182, 0.78);
-  font-size: clamp(0.76rem, 0.66rem + 0.24vw, 0.9rem);
+  font-size: clamp(0.6rem, 0.56rem + 0.08vw, 0.68rem);
   text-transform: uppercase;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.14em;
+  white-space: nowrap;
+  margin-right: 0;
+  flex: 0 0 auto;
 }
 
 .appa-mode-switch {
-  display: inline-flex;
+  display: inline-flex !important;
+  flex-direction: row !important;
   align-items: center;
-  gap: 8px;
-  padding: 6px;
+  justify-content: flex-start;
+  gap: 4px;
+  padding: 3px;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.46);
+  white-space: nowrap;
 }
 
 .appa-mode-chip {
-  padding: clamp(8px, 0.7vw, 10px) clamp(14px, 1vw, 18px);
+  padding: clamp(5px, 0.42vw, 6px) clamp(10px, 0.7vw, 12px);
   border-radius: 999px;
   border: 0;
   background: transparent;
   color: rgba(174, 187, 214, 0.74);
-  font-size: clamp(0.8rem, 0.7rem + 0.24vw, 0.94rem);
+  font-size: clamp(0.64rem, 0.6rem + 0.08vw, 0.72rem);
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
@@ -1310,27 +1392,46 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-audit-button {
-  min-width: 190px;
-  min-height: clamp(56px, 4vw, 72px);
-  border-radius: 18px;
+  min-width: 136px;
+  min-height: clamp(38px, 2.4vw, 44px);
+  border-radius: 12px;
   border: 1px solid rgba(129, 236, 255, 0.2);
   background: linear-gradient(180deg, rgba(25, 34, 43, 0.96), rgba(15, 19, 26, 0.98));
   color: rgba(129, 236, 255, 0.94);
-  font-size: clamp(0.94rem, 0.82rem + 0.32vw, 1.1rem);
+  font-size: clamp(0.74rem, 0.68rem + 0.1vw, 0.82rem);
   font-weight: 700;
   cursor: pointer;
+  align-self: stretch;
 }
 
 .appa-dashboard-grid {
   display: grid;
-  grid-template-columns: 340px minmax(0, 1fr) 280px;
+  grid-template-columns: 300px minmax(0, 1fr) 250px;
   gap: var(--panel-gap);
   align-items: start;
+}
+
+.appa-dashboard-grid.is-focused {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.appa-dashboard-grid.is-focused .appa-left-stack,
+.appa-dashboard-grid.is-focused .appa-center-stack,
+.appa-dashboard-grid.is-focused .appa-right-stack {
+  display: contents;
+}
+
+.appa-dashboard-grid.is-focused .appa-card.is-spotlight {
+  grid-column: 1 / -1;
 }
 
 .appa-card.is-dimmed {
   opacity: 0.48;
   filter: saturate(0.72);
+}
+
+.appa-card.is-hidden {
+  display: none;
 }
 
 .appa-card.is-spotlight {
@@ -1349,9 +1450,9 @@ body.view-pentest-active .main-shell {
 
 .appa-card {
   display: grid;
-  gap: clamp(12px, 0.9vw, 16px);
-  padding: clamp(16px, 1.05vw, 22px);
-  border-radius: 24px;
+  gap: clamp(10px, 0.72vw, 13px);
+  padding: clamp(12px, 0.82vw, 16px);
+  border-radius: 18px;
   background: linear-gradient(180deg, rgba(19, 22, 30, 0.96), rgba(11, 13, 19, 0.98));
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.05),
@@ -1367,7 +1468,7 @@ body.view-pentest-active .main-shell {
 
 .appa-card-head h4 {
   margin: 0;
-  font-size: clamp(0.9rem, 0.8rem + 0.25vw, 1.02rem);
+  font-size: clamp(0.82rem, 0.76rem + 0.14vw, 0.92rem);
   color: rgba(245, 247, 255, 0.96);
 }
 
@@ -1383,39 +1484,39 @@ body.view-pentest-active .main-shell {
 .appa-badge {
   display: inline-flex;
   align-items: center;
-  padding: 0 clamp(10px, 0.8vw, 14px);
-  min-height: clamp(28px, 2vw, 34px);
+  padding: 0 clamp(8px, 0.6vw, 12px);
+  min-height: clamp(24px, 1.7vw, 28px);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.05);
   color: rgba(214, 221, 238, 0.82);
-  font-size: clamp(0.68rem, 0.6rem + 0.2vw, 0.78rem);
+  font-size: clamp(0.62rem, 0.56rem + 0.12vw, 0.72rem);
   font-weight: 700;
   letter-spacing: 0.08em;
 }
 
 .appa-scope-list {
   display: grid;
-  gap: 14px;
+  gap: 10px;
 }
 
 .appa-scope-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 14px;
+  gap: 10px;
   align-items: center;
-  padding: clamp(14px, 1vw, 18px);
-  border-radius: 18px;
+  padding: clamp(10px, 0.72vw, 13px);
+  border-radius: 14px;
   background: rgba(37, 42, 54, 0.72);
 }
 
 .appa-scope-row span {
   color: rgba(232, 238, 252, 0.88);
-  font-size: clamp(0.9rem, 0.8rem + 0.25vw, 1.02rem);
+  font-size: clamp(0.8rem, 0.74rem + 0.14vw, 0.9rem);
 }
 
 .appa-scope-row strong {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1.35rem, 1.05rem + 0.95vw, 2rem);
+  font-size: clamp(1.02rem, 0.9rem + 0.4vw, 1.32rem);
   color: rgba(129, 236, 255, 0.96);
 }
 
@@ -1428,7 +1529,7 @@ body.view-pentest-active .main-shell {
 .appa-subhead {
   margin-bottom: 12px;
   color: rgba(143, 155, 181, 0.72);
-  font-size: clamp(0.72rem, 0.64rem + 0.2vw, 0.84rem);
+  font-size: clamp(0.64rem, 0.58rem + 0.12vw, 0.74rem);
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -1468,14 +1569,14 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-paths-card {
-  min-height: clamp(420px, 52vw, 540px);
+  min-height: clamp(360px, 44vw, 460px);
 }
 
 .appa-path-card {
   display: grid;
-  gap: 12px;
-  padding: clamp(16px, 1vw, 20px) clamp(16px, 1vw, 20px) clamp(14px, 0.9vw, 18px);
-  border-radius: 22px;
+  gap: 10px;
+  padding: clamp(12px, 0.82vw, 15px) clamp(12px, 0.82vw, 15px) clamp(12px, 0.72vw, 14px);
+  border-radius: 16px;
   background: rgba(3, 5, 10, 0.96);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
@@ -1518,7 +1619,7 @@ body.view-pentest-active .main-shell {
 
 .appa-path-card h5 {
   margin: 0;
-  font-size: clamp(0.96rem, 0.86rem + 0.32vw, 1.12rem);
+  font-size: clamp(0.86rem, 0.8rem + 0.18vw, 0.98rem);
   color: rgba(247, 248, 255, 0.98);
 }
 
@@ -1528,7 +1629,7 @@ body.view-pentest-active .main-shell {
 
 .appa-path-status {
   color: rgba(129, 236, 255, 0.96);
-  font-size: clamp(1.25rem, 1rem + 0.8vw, 1.8rem);
+  font-size: clamp(1rem, 0.88rem + 0.34vw, 1.22rem);
   font-weight: 700;
 }
 
@@ -1542,7 +1643,7 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-findings-card {
-  min-height: clamp(340px, 40vw, 420px);
+  min-height: clamp(300px, 34vw, 360px);
 }
 
 .appa-analytics-grid,
@@ -1561,21 +1662,21 @@ body.view-pentest-active .main-shell {
 .appa-analytics-metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  gap: 10px;
 }
 
 .appa-analytics-tile {
   display: grid;
-  gap: 8px;
-  padding: 16px 18px;
-  border-radius: 18px;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 14px;
   background: rgba(33, 38, 50, 0.72);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 .appa-analytics-tile span {
   color: rgba(162, 173, 198, 0.76);
-  font-size: clamp(0.72rem, 0.64rem + 0.18vw, 0.82rem);
+  font-size: clamp(0.62rem, 0.58rem + 0.1vw, 0.72rem);
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -1583,7 +1684,7 @@ body.view-pentest-active .main-shell {
 .appa-analytics-tile strong {
   color: rgba(247, 249, 255, 0.98);
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1.28rem, 1rem + 0.84vw, 1.9rem);
+  font-size: clamp(0.98rem, 0.88rem + 0.32vw, 1.2rem);
 }
 
 .appa-engagement-card,
@@ -1591,9 +1692,9 @@ body.view-pentest-active .main-shell {
 .appa-target-card,
 .appa-report-card {
   display: grid;
-  gap: 10px;
-  padding: 16px 18px;
-  border-radius: 18px;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 14px;
   background: rgba(20, 23, 32, 0.9);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
@@ -1612,7 +1713,7 @@ body.view-pentest-active .main-shell {
 .appa-report-card strong,
 .appa-target-card strong {
   color: rgba(244, 247, 255, 0.98);
-  font-size: clamp(0.9rem, 0.82rem + 0.24vw, 1.02rem);
+  font-size: clamp(0.82rem, 0.76rem + 0.14vw, 0.92rem);
 }
 
 .appa-engagement-meta,
@@ -1656,7 +1757,7 @@ body.view-pentest-active .main-shell {
 
 .appa-findings-header {
   color: rgba(132, 145, 171, 0.72);
-  font-size: clamp(0.66rem, 0.58rem + 0.18vw, 0.78rem);
+  font-size: clamp(0.58rem, 0.54rem + 0.08vw, 0.68rem);
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1664,7 +1765,7 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-finding-row {
-  padding: 16px 10px;
+  padding: 12px 8px;
   border-top: 1px solid rgba(255, 255, 255, 0.04);
 }
 
@@ -1674,13 +1775,13 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-finding-key strong {
-  font-size: clamp(0.9rem, 0.8rem + 0.25vw, 1.02rem);
+  font-size: clamp(0.82rem, 0.76rem + 0.14vw, 0.92rem);
   color: rgba(245, 248, 255, 0.98);
 }
 
 .appa-finding-key span {
   color: rgba(141, 153, 178, 0.74);
-  font-size: clamp(0.74rem, 0.66rem + 0.22vw, 0.86rem);
+  font-size: clamp(0.66rem, 0.6rem + 0.12vw, 0.76rem);
 }
 
 .appa-risk-bars {
@@ -1689,8 +1790,8 @@ body.view-pentest-active .main-shell {
 }
 
 .appa-risk-bars i {
-  width: 40px;
-  height: 8px;
+  width: 32px;
+  height: 7px;
   border-radius: 999px;
   background: rgba(58, 63, 78, 0.72);
   display: block;
@@ -1716,13 +1817,13 @@ body.view-pentest-active .main-shell {
   justify-self: start;
   display: inline-flex;
   align-items: center;
-  min-height: clamp(32px, 2.2vw, 38px);
-  padding: 0 clamp(12px, 0.9vw, 16px);
-  border-radius: 14px;
+  min-height: clamp(28px, 1.9vw, 32px);
+  padding: 0 clamp(10px, 0.7vw, 13px);
+  border-radius: 12px;
   background: rgba(50, 56, 70, 0.84);
   color: rgba(233, 238, 249, 0.88);
   font-weight: 600;
-  font-size: clamp(0.78rem, 0.7rem + 0.2vw, 0.9rem);
+  font-size: clamp(0.68rem, 0.62rem + 0.12vw, 0.78rem);
 }
 
 .pentest-stat-row {
@@ -2347,6 +2448,10 @@ body.view-pentest-active .main-shell {
 }
 
 @media (max-width: 860px) {
+  .appa-flow-strip {
+    padding: 12px 12px 13px;
+  }
+
   .appa-topbar,
   .appa-topbar-left,
   .appa-topbar-right {

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PORT="${PORT:-8010}"
+PORT="${PORT:-8011}"
 LABEL="ai.megaeth.security.${PORT}"
 LAUNCH_AGENTS_DIR="${HOME}/Library/LaunchAgents"
 PLIST_PATH="${LAUNCH_AGENTS_DIR}/${LABEL}.plist"
