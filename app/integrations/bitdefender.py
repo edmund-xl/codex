@@ -18,6 +18,7 @@ BITDEFENDER_CACHE_TTL_SECONDS = 300
 _BITDEFENDER_CACHE: dict[tuple[str, str, str], tuple[float, dict[str, Any]]] = {}
 
 
+# Security-log-analysis mainline Bitdefender client.
 class BitdefenderClient:
     def __init__(self, api_key: str, base_url: str = "https://cloud.gravityzone.bitdefender.com/api/v1.0/jsonrpc") -> None:
         self.api_key = api_key

@@ -6,6 +6,7 @@ from typing import Any
 from pydantic import BaseModel, Field
 
 
+# Security-log-analysis mainline event models.
 class RawEvent(BaseModel):
     source_type: str
     event_hint: str | None = None

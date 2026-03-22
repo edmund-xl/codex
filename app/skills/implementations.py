@@ -13,6 +13,7 @@ from app.models.event import NormalizedEvent
 from app.models.finding import Finding
 
 
+# Security-log-analysis mainline skill implementations.
 def _risk_label(level: int) -> str:
     return {1: "info", 2: "low", 3: "medium", 4: "high", 5: "critical"}.get(level, "info")
 

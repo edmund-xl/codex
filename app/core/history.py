@@ -21,6 +21,7 @@ from app.utils.store import (
 ARCHIVE_DIR = Path(__file__).resolve().parents[2] / "data" / "archives" / "investigations"
 
 
+# Security-log-analysis mainline history service.
 class HistoryService:
     def __init__(self) -> None:
         self.store = JsonFileStore()

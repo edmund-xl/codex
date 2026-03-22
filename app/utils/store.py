@@ -6,6 +6,7 @@ from typing import Any
 from datetime import datetime, timedelta, timezone
 
 
+# Security-log-analysis mainline persistence paths.
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 EVENTS_FILE = DATA_DIR / "events.json"
 RAW_EVENTS_FILE = DATA_DIR / "raw_events.json"
