@@ -133,6 +133,7 @@ megaeth-ai-security-rebuild/
 - [docs](/Users/lei/Documents/New%20project/megaeth-ai-security-rebuild/docs)
 - [skill_specs](/Users/lei/Documents/New%20project/megaeth-ai-security-rebuild/skill_specs)
 - [training_cases](/Users/lei/Documents/New%20project/megaeth-ai-security-rebuild/training_cases)
+- [handoff guide](./docs/HANDOFF.md)
 
 ### 当前主线
 
