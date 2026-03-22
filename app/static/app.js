@@ -15,7 +15,6 @@ const i18n = {
       skills: ["技能", "按模块查看平台已经接入的分析能力单元，以及它们当前负责的方向。"],
       integrations: ["连接", "在这里管理外部安全平台连接层，把资产、终端、报表和事件入口带入系统工作流。"],
       memory: ["学习", "查看系统已经学会的分类经验，并把新的判断继续沉淀下来。"],
-      pentest: ["渗透测试", "这里后面会放渗透测试相关的 MCP、Agent 和 Skill，和安全日志分析分成两条主线。"],
     },
     sidebarCopy: {
       overview: "先看系统是否真的在处理事件，再看最近报告、调查和沉淀记录。",
@@ -23,7 +22,6 @@ const i18n = {
       skills: "这里看平台已经接入哪些分析能力，以及每个模块当前覆盖了多少分析引擎。",
       integrations: "这里是外部平台连接层。当前 Bitdefender 已接入可直接使用的资产清单、终端列表和报表目录链路。",
       memory: "这里是系统学习层。每次你确认正确分类后，都可以在这里让系统学会。",
-      pentest: "这里会逐步接入渗透测试相关的入口、工作台和综合报告链路，和日志分析分开管理。",
     },
     ui: {
       overviewTitle: "平台概览",
@@ -142,37 +140,6 @@ const i18n = {
       menuIntegrations: "连接",
       menuMemory: "学习",
       menuSecurityGroup: "安全日志分析",
-      menuPentestGroup: "渗透测试",
-      menuPentestWorkbench: "工作台",
-      pentestSectionTitle: "任务工作台",
-      pentestDashboardTab: "工作台",
-      pentestReportsTab: "报告",
-      pentestRunStatus: "绿色周期运行中",
-      pentestAuditReport: "审计报告",
-      pentestLaunchScan: "发起新扫描",
-      pentestLogout: "退出",
-      pentestNavOverview: "总览",
-      pentestNavAttackPaths: "攻击路径",
-      pentestNavPentestAi: "验证编排 AI",
-      pentestNavVulnerabilities: "发现归并",
-      pentestNavTargets: "范围定义",
-      pentestNavEvidence: "证据链",
-      pentestNavReports: "报告",
-      pentestCardCopy: "APPA 不是自动利用机器人，而是以攻击路径为中心、由 AI 负责规划与综合、由受控开源工具负责执行、最后按审计风格报告交付结果的持续渗透测试编排器。",
-      pentestScopeTitle: "范围定义",
-      pentestDiscoveryTitle: "发现进度",
-      pentestOrchestrationTitle: "验证编排",
-      pentestMissionCopy: "绿色周期运行中",
-      pentestSurfaceTitle: "攻击路径建模",
-      pentestAiTitle: "渗透测试 AI",
-      pentestEvidenceTitle: "证据优先发现",
-      pentestTargetsTitle: "报告输出",
-      pentestAttackPathCopy: "沿已发现基础设施建模逻辑攻击路径。",
-      pentestFindingsCopy: "当前任务期内沉淀下来的证据优先发现。",
-      pentestFindingsKey: "标准键",
-      pentestFindingsImpact: "可能性 / 影响",
-      pentestFindingsTarget: "目标节点",
-      pentestFindingsPreview: "证据预览",
       viewSkillDirectoryTitle: "全部能力",
       viewSkillDirectoryCopy: "默认展示当前平台全部能力，你也可以按模块快速收窄并定位对应引擎。",
       skillsDirectoryNote: "默认展示当前平台全部能力；也可以按模块快速收窄。",
@@ -216,7 +183,6 @@ const i18n = {
       skills: ["Skill", "Browse active Skill capability units by module and see what each one is responsible for."],
       integrations: ["MCP", "Manage the MCP connection layer here and bring asset, endpoint, report, and event-entry data into the Agent workflow."],
       memory: ["Agent Learning", "Review what the Agent has learned and keep teaching it with new decisions."],
-      pentest: ["Pentest", "This area will hold pentest-related MCP, Agent, and Skill flows as a separate top-level track from log analysis."],
     },
     sidebarCopy: {
       overview: "Start with platform activity, then review recent reports, investigations, and stored history.",
@@ -224,7 +190,6 @@ const i18n = {
       skills: "Review which Skills are active and how each module is currently covered.",
       integrations: "This is the MCP layer. Bitdefender is already wired in for asset inventory, endpoint list, and report catalog workflows.",
       memory: "This is the Agent learning layer. Each confirmed result can become future guidance.",
-      pentest: "This area will gradually host pentest entry points, workbenches, and synthesis flows, separate from security log analysis.",
     },
     ui: {
       overviewTitle: "Platform Overview",
@@ -343,37 +308,6 @@ const i18n = {
       menuIntegrations: "MCP",
       menuMemory: "Agent Learning",
       menuSecurityGroup: "Security Log Analysis",
-      menuPentestGroup: "Pentest",
-      menuPentestWorkbench: "Workbench",
-      pentestSectionTitle: "Mission Dashboard",
-      pentestDashboardTab: "Dashboard",
-      pentestReportsTab: "Reports",
-      pentestRunStatus: "WEEKLY GREEN RUN • IN PROGRESS",
-      pentestAuditReport: "Audit Report",
-      pentestLaunchScan: "Launch New Scan",
-      pentestLogout: "Logout",
-      pentestNavOverview: "OVERVIEW",
-      pentestNavAttackPaths: "ATTACK PATHS",
-      pentestNavPentestAi: "PENTEST AI",
-      pentestNavVulnerabilities: "VULNERABILITIES",
-      pentestNavTargets: "TARGETS",
-      pentestNavEvidence: "EVIDENCE",
-      pentestNavReports: "REPORTS",
-      pentestCardCopy: "APPA is not an autonomous exploit bot. It is a continuous pentest orchestrator centered on attack paths, where AI plans and synthesizes, controlled open-source tools execute, and audit-style reports become the final output.",
-      pentestScopeTitle: "Asset Scope",
-      pentestDiscoveryTitle: "Discovery Status",
-      pentestOrchestrationTitle: "Active Orchestration",
-      pentestMissionCopy: "WEEKLY GREEN RUN • IN PROGRESS",
-      pentestSurfaceTitle: "Attack Path Modeling",
-      pentestAiTitle: "Pentest AI",
-      pentestEvidenceTitle: "Evidence-First Findings",
-      pentestTargetsTitle: "Report Outputs",
-      pentestAttackPathCopy: "Modeled logical traversals through discovered infrastructure.",
-      pentestFindingsCopy: "Canonical security events identified during active pentesting.",
-      pentestFindingsKey: "Canonical Key",
-      pentestFindingsImpact: "Likelihood / Impact",
-      pentestFindingsTarget: "Target Node",
-      pentestFindingsPreview: "Evidence Preview",
       viewSkillDirectoryTitle: "All Skills",
       viewSkillDirectoryCopy: "Show the full active Skill set by default, then narrow it down by module when needed.",
       skillsDirectoryNote: "The default view shows the full active Skill set. Use the module filter to narrow it down.",
@@ -526,8 +460,6 @@ const moduleNarratives = {
 const storageKeys = {
   activeView: "megaeth-active-view-v2",
   language: "megaeth-language-v1",
-  appaTab: "megaeth-appa-tab-v1",
-  appaNav: "megaeth-appa-nav-v1",
 };
 
 const legacyStorageKeys = ["megaeth-active-view", "megaeth-raw-input", "megaeth-raw-input-v2"];
@@ -552,12 +484,10 @@ const uiState = {
   memoryRules: [],
   memoryFeedback: [],
   bitdefender: null,
-  appaOverview: null,
-  appaDashboard: null,
-  appaTab: "dashboard",
-  appaNav: "overview",
   language: "zh",
 };
+
+const expandedSkillModules = new Set();
 
 const sourceTypeOptions = ["host", "endpoint", "easm", "cloud", "kms", "github", "identity", "jumpserver", "login_auth", "command_audit", "file_transfer_audit", "operation_audit", "key", "cicd"];
 const eventTypeOptions = [
@@ -741,19 +671,18 @@ function applyLanguage() {
   if (document.getElementById("import-bitdefender-reports")) document.getElementById("import-bitdefender-reports").textContent = ui.bitdefenderImportReports;
   document.getElementById("section-installed-skills-title").textContent = ui.installedSkillsTitle;
   document.getElementById("section-skill-matrix-title").textContent = ui.skillMatrixTitle;
-  document.getElementById("section-memory-rules-title").textContent = ui.memoryRulesTitle;
-  document.getElementById("section-memory-feedback-title").textContent = ui.memoryFeedbackTitle;
+  if (document.getElementById("section-memory-rules-title")) document.getElementById("section-memory-rules-title").textContent = ui.memoryRulesTitle;
+  if (document.getElementById("section-memory-feedback-title")) document.getElementById("section-memory-feedback-title").textContent = ui.memoryFeedbackTitle;
   document.getElementById("refresh-overview").textContent = t("refresh");
   document.getElementById("refresh-reports").textContent = t("refresh");
   document.getElementById("refresh-investigations").textContent = t("refresh");
   document.getElementById("refresh-history").textContent = t("refresh");
   document.getElementById("refresh-skills").textContent = t("refresh");
   document.getElementById("refresh-matrix").textContent = t("refresh");
-  document.getElementById("refresh-memory-rules").textContent = t("refresh");
-  document.getElementById("refresh-memory-feedback").textContent = t("refresh");
-  document.getElementById("skills-search").placeholder = ui.searchSkillsPlaceholder;
+  if (document.getElementById("refresh-memory-rules")) document.getElementById("refresh-memory-rules").textContent = t("refresh");
+  if (document.getElementById("refresh-memory-feedback")) document.getElementById("refresh-memory-feedback").textContent = t("refresh");
   document.getElementById("skills-directory-note").textContent = ui.skillsDirectoryNote;
-  document.getElementById("memory-search").placeholder = ui.searchMemoryPlaceholder;
+  if (document.getElementById("memory-search")) document.getElementById("memory-search").placeholder = ui.searchMemoryPlaceholder;
   document.getElementById("intake-upload-note").textContent = ui.intakeUploadNote;
   document.getElementById("intake-analyze-hint").textContent = ui.intakeAnalyzeHint;
   document.getElementById("download-report").textContent = ui.downloadReport;
@@ -802,69 +731,6 @@ function applyLanguage() {
   document.querySelectorAll("[data-view='skills']").forEach((node) => node.textContent = ui.menuSkills);
   document.querySelectorAll("[data-view='integrations']").forEach((node) => node.textContent = ui.menuIntegrations);
   document.querySelectorAll("[data-view='memory']").forEach((node) => node.textContent = ui.menuMemory);
-  const appaSectionTitle = document.getElementById("section-pentest-title");
-  if (appaSectionTitle) {
-    appaSectionTitle.textContent = ui.pentestSectionTitle;
-    const pentestScopeTitle = document.getElementById("section-pentest-scope-title");
-    const pentestDiscoveryTitle = document.getElementById("section-pentest-discovery-title");
-    const pentestOrchestrationTitle = document.getElementById("section-pentest-orchestration-title");
-    const pentestCardCopy = document.getElementById("pentest-card-copy");
-    const pentestMissionCopy = document.getElementById("pentest-mission-copy");
-    const pentestSurfaceTitle = document.getElementById("section-pentest-surface-title");
-    const pentestAiTitle = document.getElementById("section-pentest-ai-title");
-    const pentestEvidenceTitle = document.getElementById("section-pentest-evidence-title");
-    const pentestTargetsTitle = document.getElementById("section-pentest-targets-title");
-    const appaTabDashboard = document.getElementById("appa-tab-dashboard");
-    const appaAuditReport = document.getElementById("appa-audit-report");
-    if (pentestScopeTitle) pentestScopeTitle.textContent = ui.pentestScopeTitle;
-    if (pentestDiscoveryTitle) pentestDiscoveryTitle.textContent = ui.pentestDiscoveryTitle;
-    if (pentestOrchestrationTitle) pentestOrchestrationTitle.textContent = ui.pentestOrchestrationTitle;
-    if (pentestCardCopy) pentestCardCopy.textContent = ui.pentestCardCopy;
-    if (pentestMissionCopy) pentestMissionCopy.textContent = ui.pentestMissionCopy;
-    if (pentestSurfaceTitle) pentestSurfaceTitle.textContent = ui.pentestSurfaceTitle;
-    if (pentestAiTitle) pentestAiTitle.textContent = ui.pentestAiTitle;
-    if (pentestEvidenceTitle) pentestEvidenceTitle.textContent = ui.pentestEvidenceTitle;
-    if (pentestTargetsTitle) pentestTargetsTitle.textContent = ui.pentestTargetsTitle;
-    if (appaTabDashboard) appaTabDashboard.textContent = ui.pentestDashboardTab;
-    if (appaAuditReport) appaAuditReport.textContent = ui.pentestAuditReport;
-    if (document.getElementById("appa-nav-overview")?.lastElementChild) document.getElementById("appa-nav-overview").lastElementChild.textContent = ui.pentestNavOverview;
-    if (document.getElementById("appa-nav-attack-paths")?.lastElementChild) document.getElementById("appa-nav-attack-paths").lastElementChild.textContent = ui.pentestNavAttackPaths;
-    if (document.getElementById("appa-nav-pentest-ai")?.lastElementChild) document.getElementById("appa-nav-pentest-ai").lastElementChild.textContent = ui.pentestNavPentestAi;
-    if (document.getElementById("appa-nav-vulnerabilities")?.lastElementChild) document.getElementById("appa-nav-vulnerabilities").lastElementChild.textContent = ui.pentestNavVulnerabilities;
-    if (document.getElementById("appa-nav-targets")?.lastElementChild) document.getElementById("appa-nav-targets").lastElementChild.textContent = ui.pentestNavTargets;
-    if (document.getElementById("appa-nav-evidence")?.lastElementChild) document.getElementById("appa-nav-evidence").lastElementChild.textContent = ui.pentestNavEvidence;
-    if (document.getElementById("appa-nav-reports")?.lastElementChild) document.getElementById("appa-nav-reports").lastElementChild.textContent = ui.pentestNavReports;
-    const appaLaunchScan = document.getElementById("appa-launch-scan");
-    const appaLogout = document.getElementById("appa-logout");
-    const appaAttackPathCopy = document.getElementById("appa-attack-path-copy");
-    const appaFindingsCopy = document.getElementById("appa-findings-copy");
-    const appaFindingsColKey = document.getElementById("appa-findings-col-key");
-    const appaFindingsColImpact = document.getElementById("appa-findings-col-impact");
-    const appaFindingsColTarget = document.getElementById("appa-findings-col-target");
-    const appaFindingsColPreview = document.getElementById("appa-findings-col-preview");
-    const appaLatestReportTitle = document.getElementById("appa-latest-report-title");
-    const appaLatestReportCopy = document.getElementById("appa-latest-report-copy");
-    const appaReportDownloadInline = document.getElementById("appa-report-download-inline");
-    const appaReportHistoryTitle = document.getElementById("appa-report-history-title");
-    const appaReportTypesTitle = document.getElementById("appa-report-types-title");
-    if (appaLaunchScan) appaLaunchScan.textContent = ui.pentestLaunchScan;
-    if (appaLogout) appaLogout.textContent = ui.pentestLogout;
-    if (appaAttackPathCopy) appaAttackPathCopy.textContent = ui.pentestAttackPathCopy;
-    if (appaFindingsCopy) appaFindingsCopy.textContent = ui.pentestFindingsCopy;
-    if (appaFindingsColKey) appaFindingsColKey.textContent = ui.pentestFindingsKey;
-    if (appaFindingsColImpact) appaFindingsColImpact.textContent = ui.pentestFindingsImpact;
-    if (appaFindingsColTarget) appaFindingsColTarget.textContent = ui.pentestFindingsTarget;
-    if (appaFindingsColPreview) appaFindingsColPreview.textContent = ui.pentestFindingsPreview;
-    if (appaLatestReportTitle) appaLatestReportTitle.textContent = uiState.language === "zh" ? "最新审计输出" : "Latest Audit Output";
-    if (appaLatestReportCopy) {
-      appaLatestReportCopy.textContent = uiState.language === "zh"
-        ? "这里看 APPA 最近一次已经产出的审计型交付物。"
-        : "Review the newest audit-style output currently produced by APPA.";
-    }
-    if (appaReportDownloadInline) appaReportDownloadInline.textContent = uiState.language === "zh" ? "下载最新报告" : "Download Latest Report";
-    if (appaReportHistoryTitle) appaReportHistoryTitle.textContent = uiState.language === "zh" ? "报告历史" : "Report History";
-    if (appaReportTypesTitle) appaReportTypesTitle.textContent = uiState.language === "zh" ? "报告类型" : "Report Types";
-  }
   if (!intakeState.rawEvent && !intakeState.normalizedEvent && !intakeState.plannerPreview && !intakeState.report) {
     document.getElementById("intake-status").textContent = ui.ready;
   }
@@ -882,7 +748,6 @@ function applyLanguage() {
   if (uiState.memoryRules.length) renderMemoryRules(uiState.memoryRules);
   if (uiState.memoryFeedback.length) renderMemoryFeedback(uiState.memoryFeedback);
   renderBitdefender(uiState.bitdefender);
-  if (uiState.appaDashboard) renderAppaDashboard(uiState.appaDashboard);
 }
 
 async function request(url, options = {}) {
@@ -1283,19 +1148,10 @@ function renderSkills(skills) {
   populateCorrectionSkillOptions();
   const root = document.getElementById("skills-output");
   root.innerHTML = "";
-  const keyword = (document.getElementById("skills-search")?.value || "").trim().toLowerCase();
   const filter = document.getElementById("skills-filter")?.value || "all";
   const filtered = skills.filter((skill) => {
     const matchesFilter = filter === "all" || skill.category === filter;
-    const haystack = [
-      skill.skill_name,
-      skill.description,
-      skill.skill_id,
-      moduleLabel(skill.category),
-      engineLabel(skill.adapter),
-    ].join(" ").toLowerCase();
-    const matchesKeyword = !keyword || haystack.includes(keyword);
-    return matchesFilter && matchesKeyword;
+    return matchesFilter;
   });
   if (!filtered.length) {
     root.appendChild(createEmptyState(t("ui").noSkills));
@@ -1316,35 +1172,13 @@ function renderSkills(skills) {
     [uiState.language === "zh" ? "模块数量" : "Modules", String(categories.length)],
     [uiState.language === "zh" ? "已接入执行" : "Tool-backed", String(filtered.filter((skill) => skill.stage === "tool-backed").length)],
     [uiState.language === "zh" ? "已训练能力" : "Case-trained", String(trainedCount)],
-  ].forEach(([label, value]) => {
-    const stat = el("div", "skill-stat");
+  ].forEach(([label, value], index) => {
+    const stat = el("div", `skill-stat tone-${index + 1}`);
     stat.appendChild(el("span", "meta-label", label));
     stat.appendChild(el("span", "skill-stat-value", value));
     summary.appendChild(stat);
   });
   directory.appendChild(summary);
-
-  const tabs = el("div", "directory-tabs");
-  const allTab = el("button", `directory-tab ${filter === "all" ? "active" : ""}`.trim(), uiState.language === "zh" ? "全部能力" : "All Skills");
-  allTab.type = "button";
-  allTab.addEventListener("click", () => {
-    const filterNode = document.getElementById("skills-filter");
-    filterNode.value = "all";
-    renderSkills(uiState.skills);
-  });
-  tabs.appendChild(allTab);
-  categories.forEach((category) => {
-    const items = grouped[category] || [];
-    const tab = el("button", `directory-tab ${filter === category ? "active" : ""}`.trim(), `${moduleLabel(category)} · ${items.length}`);
-    tab.type = "button";
-    tab.addEventListener("click", () => {
-      const filterNode = document.getElementById("skills-filter");
-      filterNode.value = category;
-      renderSkills(uiState.skills);
-    });
-    tabs.appendChild(tab);
-  });
-  directory.appendChild(tabs);
 
   categories.forEach((category) => {
     const items = [...(grouped[category] || [])].sort((a, b) => rankSkill(b) - rankSkill(a));
@@ -1352,24 +1186,35 @@ function renderSkills(skills) {
     const familyBuckets = bucketSkillsByFamily(items);
 
     const cluster = el("section", "module-cluster");
-    const head = el("div", "module-cluster-head");
+    cluster.dataset.category = category;
+    const head = el("button", "module-cluster-head module-cluster-toggle");
+    head.type = "button";
+    const isExpanded = expandedSkillModules.has(category);
     const headText = el("div", "");
     headText.appendChild(el("h4", "", moduleLabel(category)));
-    headText.appendChild(el("p", "section-note", moduleNarrative(category) || t("ui").viewSkillDirectoryCopy));
     headText.appendChild(el("div", "compact-meta", uiState.language === "zh" ? `已训练 ${trainedInModule} / ${items.length}` : `${trainedInModule} / ${items.length} trained`));
     head.appendChild(headText);
     head.appendChild(el("span", "module-pill", uiState.language === "zh" ? `${items.length} 个能力` : `${items.length} capabilities`));
-    cluster.appendChild(head);
-
-    familyBuckets.forEach(([familyId, familyItems]) => {
-      if (familyBuckets.length > 1 || familyId !== "general") {
-        const familyHead = el("div", "module-subhead");
-        familyHead.appendChild(el("h5", "", skillFamilyLabel(familyId)));
-        familyHead.appendChild(el("span", "module-pill", uiState.language === "zh" ? `${familyItems.length} 个能力` : `${familyItems.length} capabilities`));
-        cluster.appendChild(familyHead);
-      }
-      cluster.appendChild(buildSkillBucket(familyItems));
+    head.appendChild(el("span", "module-toggle-glyph", isExpanded ? "−" : "+"));
+    head.addEventListener("click", () => {
+      if (expandedSkillModules.has(category)) expandedSkillModules.delete(category);
+      else expandedSkillModules.add(category);
+      renderSkills(uiState.skills);
     });
+    cluster.appendChild(head);
+    if (isExpanded) {
+      const body = el("div", "module-cluster-body");
+      familyBuckets.forEach(([familyId, familyItems]) => {
+        if (familyBuckets.length > 1 || familyId !== "general") {
+          const familyHead = el("div", "module-subhead");
+          familyHead.appendChild(el("h5", "", skillFamilyLabel(familyId)));
+          familyHead.appendChild(el("span", "module-pill", uiState.language === "zh" ? `${familyItems.length} 个能力` : `${familyItems.length} capabilities`));
+          body.appendChild(familyHead);
+        }
+        body.appendChild(buildSkillBucket(familyItems));
+      });
+      cluster.appendChild(body);
+    }
 
     directory.appendChild(cluster);
   });
@@ -1395,7 +1240,6 @@ function renderMatrix(matrix) {
   uiState.matrix = matrix;
   const root = document.getElementById("matrix-output");
   root.innerHTML = "";
-  const keyword = (document.getElementById("skills-search")?.value || "").trim().toLowerCase();
   const filter = document.getElementById("skills-filter")?.value || "all";
   const entries = orderedCategories(Object.keys(matrix).filter((category) => filter === "all" || category === filter))
     .map((category) => [category, matrix[category]]);
@@ -1404,61 +1248,11 @@ function renderMatrix(matrix) {
     return;
   }
   const wrapper = el("div", "module-map");
-  wrapper.appendChild(el("p", "section-note", uiState.language === "zh" ? "这里改成矩阵 + 强弱条的方式，能更直观看到每个模块偏检测、分析、处置还是取证。" : "This panel now uses a matrix plus strength bars so you can quickly see whether each module leans toward detection, analysis, response, or forensics."));
-  const capabilityTable = el("div", "capability-table");
-  const capabilityTableHeader = el("div", "capability-table-header");
-  [uiState.language === "zh" ? "能力组" : "Capability Group", uiState.language === "zh" ? "成熟度" : "Maturity", uiState.language === "zh" ? "已训练" : "Trained", uiState.language === "zh" ? "执行模式" : "Mode", uiState.language === "zh" ? "覆盖强度" : "Coverage"].forEach((text) => {
-    capabilityTableHeader.appendChild(el("span", "", text));
-  });
-  capabilityTable.appendChild(capabilityTableHeader);
-  const matrixTable = el("div", "capability-matrix");
-  const header = el("div", "capability-matrix-row capability-matrix-head");
-  [uiState.language === "zh" ? "模块" : "Module", "Detection", "Analysis", "Response", "Forensics"].forEach((text) => {
-    header.appendChild(el("span", "", text));
-  });
-  matrixTable.appendChild(header);
   const totalSkills = entries.reduce((sum, [, skills]) => sum + skills.length, 0) || 1;
   entries.forEach(([category, skills]) => {
-    const relevant = skills.filter((skill) => {
-      if (!keyword) return true;
-      const haystack = [
-        skill.skill_name,
-        skill.description,
-        skill.skill_id,
-        moduleLabel(skill.category),
-        engineLabel(skill.adapter),
-      ].join(" ").toLowerCase();
-      return haystack.includes(keyword);
-    });
+    const relevant = skills.filter(() => true);
     if (!relevant.length) return;
     const trainedCount = relevant.filter((skill) => skillMetaFor(skill).trainedCases > 0).length;
-    const agentCount = relevant.filter((skill) => (skill.execution_mode || "rule_only") !== "rule_only").length;
-    const averageRank = relevant.reduce((sum, skill) => sum + rankSkill(skill), 0) / relevant.length;
-    const normalizedRank = Math.max(12, Math.min(100, Math.round((averageRank / 5) * 100)));
-    const tableRow = el("div", "capability-table-row");
-    tableRow.appendChild(el("span", "", moduleLabel(category)));
-    tableRow.appendChild(el("span", "", `L${Math.max(1, Math.min(4, Math.round(averageRank)))}`));
-    tableRow.appendChild(el("span", "", `${trainedCount}/${relevant.length}`));
-    tableRow.appendChild(el("span", agentCount ? "capability-mode agent" : "capability-mode", agentCount ? (uiState.language === "zh" ? "Agent 可选" : "Agent Optional") : (uiState.language === "zh" ? "规则版" : "Rule Only")));
-    const maturityCell = el("div", "maturity-bar-row");
-    const maturityTrack = el("div", "memory-track");
-    const maturityFill = el("span", "maturity-bar-fill");
-    maturityFill.style.width = `${normalizedRank}%`;
-    maturityTrack.appendChild(maturityFill);
-    maturityCell.appendChild(maturityTrack);
-    maturityCell.appendChild(el("span", "", `${normalizedRank}%`));
-    tableRow.appendChild(maturityCell);
-    capabilityTable.appendChild(tableRow);
-    const dotRow = el("div", "capability-matrix-row");
-    dotRow.appendChild(el("span", "", moduleLabel(category)));
-    const flags = [
-      relevant.length > 0,
-      trainedCount > 0,
-      relevant.some((skill) => (skill.execution_mode || "rule_only") !== "rule_only"),
-      relevant.some((skill) => String(skill.skill_id || "").includes("jumpserver") || String(skill.skill_id || "").includes("whitebox")),
-    ];
-    flags.forEach((active) => dotRow.appendChild(el("span", active ? "matrix-dot active" : "matrix-dot", active ? "●" : "○")));
-    matrixTable.appendChild(dotRow);
     const card = el("article", "module-map-card");
     const head = el("div", "module-map-head");
     head.appendChild(el("h4", "", moduleLabel(category)));
@@ -1481,14 +1275,13 @@ function renderMatrix(matrix) {
     card.appendChild(bar);
     wrapper.appendChild(card);
   });
-  wrapper.prepend(capabilityTable);
-  wrapper.prepend(matrixTable);
   root.appendChild(wrapper);
 }
 
 function renderMemoryRules(rules) {
-  uiState.memoryRules = rules;
   const root = document.getElementById("memory-rules-output");
+  if (!root) return;
+  uiState.memoryRules = rules;
   root.innerHTML = "";
   const keyword = (document.getElementById("memory-search")?.value || "").trim().toLowerCase();
   const filtered = rules.filter((rule) => {
@@ -1628,73 +1421,21 @@ function renderMemoryFeedback(feedback) {
     root.appendChild(createEmptyState(t("ui").noMemoryFeedback));
     return;
   }
-  const timeline = el("div", "feedback-timeline");
+  const recent = feedback.slice(0, 5);
+  const timeline = el("div", "feedback-timeline feedback-timeline-compact");
   const summary = el("div", "skill-summary-strip");
   [
-    [uiState.language === "zh" ? "反馈记录" : "Feedback", String(feedback.length)],
-    [uiState.language === "zh" ? "来源文件" : "Files", String(new Set(feedback.map((item) => item.filename || item.name || "unknown")).size)],
-    [uiState.language === "zh" ? "自动学习" : "Auto", String(feedback.filter((item) => !item.manual).length)],
-    [uiState.language === "zh" ? "人工学习" : "Manual", String(feedback.filter((item) => item.manual).length)],
-  ].forEach(([label, value]) => {
-    const stat = el("div", "skill-stat");
+    [uiState.language === "zh" ? "最近反馈" : "Recent", String(recent.length)],
+    [uiState.language === "zh" ? "来源文件" : "Files", String(new Set(recent.map((item) => item.filename || item.name || "unknown")).size)],
+    [uiState.language === "zh" ? "自动沉淀" : "Auto", String(recent.filter((item) => !item.manual).length)],
+  ].forEach(([label, value], index) => {
+    const stat = el("div", `skill-stat tone-${index + 1}`);
     stat.appendChild(el("span", "meta-label", label));
     stat.appendChild(el("span", "skill-stat-value", value));
     summary.appendChild(stat);
   });
   timeline.appendChild(summary);
-  timeline.appendChild(el("p", "section-note", uiState.language === "zh" ? "这里看的是最近发生的学习动作，用来回看系统最近吸收了哪些人工判断或自动沉淀。" : "This panel shows the most recent learning actions so you can review what judgment the Agent absorbed recently."));
-  const visualGrid = el("div", "memory-visual-grid");
-  const cadenceCard = el("article", "memory-visual-card");
-  cadenceCard.appendChild(el("h4", "", uiState.language === "zh" ? "近期学习节奏" : "Recent Learning Cadence"));
-  cadenceCard.appendChild(el("p", "card-copy", uiState.language === "zh" ? "这里看最近学习动作的节奏和来源。" : "This shows the recent learning rhythm and where it is coming from."));
-  const cadenceBars = el("div", "memory-bar-list");
-  const cadenceEntries = [
-    [uiState.language === "zh" ? "最近 24h" : "Last 24h", feedback.filter((item) => item.created_at && Date.now() - new Date(item.created_at).getTime() <= 86400000).length],
-    [uiState.language === "zh" ? "人工" : "Manual", feedback.filter((item) => item.manual).length],
-    [uiState.language === "zh" ? "自动" : "Auto", feedback.filter((item) => !item.manual).length],
-  ];
-  const maxCadence = Math.max(...cadenceEntries.map(([, count]) => count), 1);
-  cadenceEntries.forEach(([label, count], index) => {
-    const row = el("div", "memory-bar-row");
-    row.appendChild(el("span", "meta-label", label));
-    const track = el("div", "memory-track");
-    const fill = el("span", `signal-fill ${index === 0 ? "cyan" : index === 1 ? "violet" : "green"}`);
-    fill.style.width = `${Math.max(10, Math.round((count / maxCadence) * 100))}%`;
-    track.appendChild(fill);
-    row.appendChild(track);
-    row.appendChild(el("span", "signal-value", String(count)));
-    cadenceBars.appendChild(row);
-  });
-  cadenceCard.appendChild(cadenceBars);
-  visualGrid.appendChild(cadenceCard);
-  const routeCard = el("article", "memory-visual-card");
-  routeCard.appendChild(el("h4", "", uiState.language === "zh" ? "近期回写能力" : "Recent Skill Write-Back"));
-  routeCard.appendChild(el("p", "card-copy", uiState.language === "zh" ? "这里直接看最近学习动作最常回写到哪些能力。" : "This shows which skills recent learning has reinforced most often."));
-  const skillCounts = new Map();
-  feedback.forEach((item) => {
-    (item.preferred_skills || []).forEach((skillId) => {
-      const key = skillLabel(skillId);
-      skillCounts.set(key, (skillCounts.get(key) || 0) + 1);
-    });
-  });
-  const topSkills = [...skillCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 4);
-  const maxSkill = Math.max(...topSkills.map(([, count]) => count), 1);
-  const routeBars = el("div", "memory-bar-list");
-  topSkills.forEach(([label, count]) => {
-    const row = el("div", "memory-bar-row");
-    row.appendChild(el("span", "meta-label", label));
-    const track = el("div", "memory-track");
-    const fill = el("span", "signal-fill green");
-    fill.style.width = `${Math.max(10, Math.round((count / maxSkill) * 100))}%`;
-    track.appendChild(fill);
-    row.appendChild(track);
-    row.appendChild(el("span", "signal-value", String(count)));
-    routeBars.appendChild(row);
-  });
-  routeCard.appendChild(routeBars);
-  visualGrid.appendChild(routeCard);
-  timeline.appendChild(visualGrid);
-  feedback.forEach((item) => {
+  recent.forEach((item) => {
     const row = el("div", "feedback-item");
     const line = el("div", "feedback-line");
     line.appendChild(el("span", "feedback-dot", ""));
@@ -1707,11 +1448,6 @@ function renderMemoryFeedback(feedback) {
     header.appendChild(title);
     header.appendChild(el("span", "feedback-time", formatTime(item.created_at)));
     card.appendChild(header);
-    const memoryContext = el("div", "feedback-summary");
-    const statusRow = el("div", "feedback-summary-row");
-    statusRow.appendChild(el("span", "chip good", uiState.language === "zh" ? "系统已经把这次人工判断沉淀为后续参考" : "This manual judgment has been retained for future reference"));
-    memoryContext.appendChild(statusRow);
-    card.appendChild(memoryContext);
     const meta = el("div", "meta-grid");
     [
       [uiState.language === "zh" ? "修正来源" : "Corrected source", sourceTypeLabel(item.expected_source_type)],
@@ -1793,7 +1529,7 @@ function renderOverview(data) {
   const situationalGrid = el("div", "situational-grid");
   const signalCard = el("article", "signal-card");
   signalCard.appendChild(el("h4", "", uiState.language === "zh" ? "平台态势信号" : "Platform Signal Mix"));
-  signalCard.appendChild(el("p", "card-copy", uiState.language === "zh" ? "这里的口径是四个并列维度：事件处理量、发现生成量、能力覆盖数、当前 Agent 绑定数。它不是风险分，而是平台运行重心的快照。" : "This panel compares four parallel dimensions: processed events, generated findings, capability coverage, and current agent bindings. It is not a risk score; it is a snapshot of where the platform is spending its energy."));
+  signalCard.appendChild(el("p", "card-copy", uiState.language === "zh" ? "先看平台目前把重心放在哪：处理事件、生成发现、能力覆盖，还是 Agent 绑定。" : "This shows where the platform is spending its effort right now: processing events, producing findings, extending coverage, or binding agent flows."));
   const signalList = el("div", "signal-list");
   const signalEntries = [
     [uiState.language === "zh" ? "事件处理" : "Processing", Number(metrics.events_processed || 0), "cyan"],
@@ -1817,8 +1553,8 @@ function renderOverview(data) {
   situationalGrid.appendChild(signalCard);
 
   const runCard = el("article", "summary-card");
-  runCard.appendChild(el("h4", "", t("ui").recentRunsTitle));
-  runCard.appendChild(el("p", "card-copy", t("ui").recentRunsCopy));
+  runCard.appendChild(el("h4", "", uiState.language === "zh" ? "当前批次状态" : "Current Run State"));
+  runCard.appendChild(el("p", "card-copy", uiState.language === "zh" ? "这里看最近一次真实分析有没有顺利跑完，以及最新处理时间。" : "This shows whether the latest real analysis run completed cleanly and when it last updated."));
   const snapshotRow = el("div", "chip-row");
   snapshotRow.appendChild(el("span", "chip good", `${t("ui").overviewSnapshotTitle}: ${metrics.events_processed > 0 ? t("ui").platformActive : t("ui").platformWaiting}`));
   runCard.appendChild(snapshotRow);
@@ -1835,13 +1571,9 @@ function renderOverview(data) {
     runMeta.appendChild(tile);
   });
   runCard.appendChild(runMeta);
-
-  const pulse = el("div", "chip-row");
-  pulse.appendChild(el("span", "chip note", t("ui").overviewPulseCopy));
-  runCard.appendChild(pulse);
   const libraryCard = el("article", "summary-card");
-  libraryCard.appendChild(el("h4", "", t("ui").coverageTitle));
-  libraryCard.appendChild(el("p", "card-copy", t("ui").coverageCopy));
+  libraryCard.appendChild(el("h4", "", uiState.language === "zh" ? "能力覆盖" : "Capability Coverage"));
+  libraryCard.appendChild(el("p", "card-copy", uiState.language === "zh" ? "这里只回答一个问题：当前平台到底已经接了多少能力，而且其中多少真的能跑。" : "This answers one question: how much capability is actually connected, and how much of it can really run."));
   const libraryMeta = el("div", "meta-grid");
   [
     [uiState.language === "zh" ? "总能力数" : "Total capabilities", String(library.total_skills ?? 0)],
@@ -1855,66 +1587,12 @@ function renderOverview(data) {
     libraryMeta.appendChild(item);
   });
   libraryCard.appendChild(libraryMeta);
-  if (categories.length) {
-    const chart = el("div", "category-bar-list");
-    const maxCount = Math.max(...categories.map(([, count]) => count), 1);
-    categories.forEach(([name, count]) => {
-      const row = el("div", "category-bar-row");
-      row.appendChild(el("span", "meta-label", moduleLabel(name)));
-      const bar = el("div", "category-bar");
-      const fill = el("span", "category-bar-fill");
-      fill.style.width = `${Math.max(10, Math.round((count / maxCount) * 100))}%`;
-      bar.appendChild(fill);
-      row.appendChild(bar);
-      row.appendChild(el("span", "meta-value", String(count)));
-      chart.appendChild(row);
-    });
-    libraryCard.appendChild(chart);
-  }
-  const flowCard = el("article", "summary-card");
-  flowCard.appendChild(el("h4", "", t("ui").flowTitle));
-  flowCard.appendChild(el("p", "card-copy", t("ui").flowCopy));
-  const flowList = el("ul", "bullet-list");
-  [
-    uiState.language === "zh" ? "标准化事件：分类 -> 规划 -> 执行 -> 聚合 -> 风险 -> 报告" : "Normalized event: classify -> plan -> execute -> aggregate -> risk -> report",
-    uiState.language === "zh" ? "原始输入：归一化 -> 分类 -> 规划 -> 执行 -> 风险 -> 报告" : "Raw input: normalize -> classify -> plan -> execute -> risk -> report",
-    uiState.language === "zh" ? "文件上传：解析 -> 归一化 -> 分类 -> 规划 -> 执行 -> 报告 -> 调查会话" : "File upload: parse -> normalize -> classify -> plan -> execute -> report -> investigation session",
-  ].forEach((text) => {
-    flowList.appendChild(el("li", "", text));
-  });
-  flowCard.appendChild(flowList);
-  const lastRefresh = el("div", "chip-row");
-  lastRefresh.appendChild(el("span", "chip latest", `${t("ui").latestAnalysis}: ${formatTime(metrics.last_event_at)}`));
-  flowCard.appendChild(lastRefresh);
-
-  const architectureCard = el("article", "summary-card");
-  architectureCard.appendChild(el("h4", "", t("ui").architectureTitle));
-  architectureCard.appendChild(el("p", "card-copy", t("ui").architectureCopy));
-  const architectureFlow = el("div", "architecture-flow");
-  architectureFlow.appendChild(el("span", "chip note", termLabel("mcp")));
-  architectureFlow.appendChild(el("span", "chip latest", "->"));
-  architectureFlow.appendChild(el("span", "chip good", termLabel("agent")));
-  architectureFlow.appendChild(el("span", "chip latest", "->"));
-  architectureFlow.appendChild(el("span", "chip", termLabel("skill")));
-  architectureFlow.appendChild(el("span", "chip latest", "->"));
-  architectureFlow.appendChild(el("span", "chip note", termLabel("report")));
-  architectureCard.appendChild(architectureFlow);
-  const architectureList = el("ul", "bullet-list");
-  [
-    t("ui").architectureMcp,
-    t("ui").architectureAgent,
-    t("ui").architectureSkill,
-    t("ui").architectureOutput,
-  ].forEach((text) => architectureList.appendChild(el("li", "", text)));
-  architectureCard.appendChild(architectureList);
 
   const blocks = el("div", "overview-block");
   blocks.appendChild(heroStrip);
   blocks.appendChild(situationalGrid);
   blocks.appendChild(runCard);
   blocks.appendChild(libraryCard);
-  blocks.appendChild(flowCard);
-  blocks.appendChild(architectureCard);
   root.appendChild(blocks);
 }
 
@@ -2752,7 +2430,7 @@ function renderReports(reports) {
     return;
   }
   const board = el("div", "reports-board");
-  reports.slice(0, 6).forEach((report) => {
+  reports.slice(0, 5).forEach((report) => {
     const riskClass = ["critical", "high"].includes(String(report.top_risk_label || "").toLowerCase()) ? "report-card-alert" : ["medium"].includes(String(report.top_risk_label || "").toLowerCase()) ? "report-card-watch" : "report-card-calm";
     const card = el("article", `report-card ${report === reports[0] ? "priority" : ""} ${riskClass}`.trim());
     card.appendChild(el("h4", "", localizedRecentReportTitle(report)));
@@ -3066,376 +2744,6 @@ function renderBitdefender(data) {
 
 }
 
-function formatAppaMode(mode) {
-  const labels = {
-    zh: { green: "Green", yellow: "Yellow", red: "Red" },
-    en: { green: "Green", yellow: "Yellow", red: "Red" },
-  };
-  return labels[uiState.language][mode] || String(mode || "").toUpperCase();
-}
-
-function appaNavContext(nav) {
-  const map = {
-    zh: {
-      overview: ["工作台总览", "先在这里确认这次渗透测试是不是跑在同一条主线里：范围、路径、发现、证据和报告有没有串起来。"],
-      "attack-paths": ["攻击路径视图", "这一步回答的是怎么打：从哪里进、经过哪些节点、哪条路径最值得继续验证。"],
-      "pentest-ai": ["验证编排视图", "这一步看 AI 如何基于当前路径安排验证顺序、组织技能调用和解释结果。"],
-      vulnerabilities: ["证据化发现视图", "这一步把问题挂到攻击路径上，强调可能性、影响和状态，而不是只堆扫描器结果。"],
-      targets: ["目标覆盖视图", "这一步定义这次到底测什么、优先测什么，以及哪些边界不能碰。"],
-      evidence: ["证据链视图", "这一步看原始材料、脱敏预览、证据发现和报告之间的回链关系。"],
-    },
-    en: {
-      overview: ["Workbench Overview", "Confirm that this pentest still follows one coherent line from scope to report."],
-      "attack-paths": ["Attack Path View", "This step answers how to break in: entry points, path state, and which route should be validated next."],
-      "pentest-ai": ["Pentest AI View", "Use this step to see how AI turns current path context into verification order and skill orchestration."],
-      vulnerabilities: ["Evidence Findings View", "Use this step to review path-level findings with likelihood, impact, and status."],
-      targets: ["Target Coverage View", "Use this step to review what is actually in scope and what should be prioritized."],
-      evidence: ["Evidence Chain View", "Use this step to trace how raw evidence becomes findings and audit-ready outputs."],
-    },
-  };
-  return map[uiState.language][nav] || map[uiState.language].overview;
-}
-
-function appaWorkflowSteps() {
-  const zh = uiState.language === "zh";
-  return [
-    {
-      key: "targets",
-      title: zh ? "1. 范围定义" : "1. Scope",
-      copy: zh ? "明确 engagement、资产范围和禁止越界的边界。" : "Define the engagement, in-scope assets, and hard boundaries.",
-      nav: "targets",
-    },
-    {
-      key: "attack-paths",
-      title: zh ? "2. 攻击路径建模" : "2. Path Modeling",
-      copy: zh ? "把暴露面串成可验证的逻辑攻击路径。" : "Model logical attack paths from the exposed surface.",
-      nav: "attack-paths",
-    },
-    {
-      key: "pentest-ai",
-      title: zh ? "3. 验证编排" : "3. Verification",
-      copy: zh ? "由 Pentest AI 安排验证顺序、技能调用和解释逻辑。" : "Let Pentest AI orchestrate verification order, skills, and reasoning.",
-      nav: "pentest-ai",
-    },
-    {
-      key: "vulnerabilities",
-      title: zh ? "4. 发现归并" : "4. Findings",
-      copy: zh ? "把问题挂到路径上，形成 evidence-first finding。" : "Attach issues to paths as evidence-first findings.",
-      nav: "vulnerabilities",
-    },
-    {
-      key: "evidence",
-      title: zh ? "5. 证据链" : "5. Evidence",
-      copy: zh ? "保留原始材料、脱敏预览和引用关系。" : "Preserve raw material, redacted previews, and references.",
-      nav: "evidence",
-    },
-    {
-      key: "reports",
-      title: zh ? "6. 审计报告" : "6. Report",
-      copy: zh ? "最终输出可复核、可签发的审计风格报告。" : "Finish with an audit-style report ready for review and sign-off.",
-      nav: "reports",
-    },
-  ];
-}
-
-function renderAppaWorkflow() {
-  const root = document.getElementById("appa-flow-steps");
-  if (!root) return;
-  root.innerHTML = "";
-  appaWorkflowSteps().forEach((step) => {
-    const card = el("button", "appa-flow-step");
-    card.type = "button";
-    const active = step.tab ? uiState.appaTab === step.tab : uiState.appaNav === step.nav;
-    card.classList.toggle("active", active);
-    card.appendChild(el("strong", "", step.title));
-    card.addEventListener("click", () => {
-      if (step.tab) {
-        setAppaTab(step.tab);
-      } else if (step.nav) {
-        setAppaNav(step.nav);
-      }
-    });
-    root.appendChild(card);
-  });
-}
-
-function appaNavFocusMap(nav) {
-  const base = ["appa-card-scope", "appa-card-orchestration", "appa-card-paths", "appa-card-findings", "appa-card-ai", "appa-card-reports"];
-  const keep = {
-    overview: [],
-    "attack-paths": ["appa-card-paths"],
-    "pentest-ai": ["appa-card-ai", "appa-card-orchestration"],
-    vulnerabilities: ["appa-card-findings"],
-    targets: ["appa-card-scope", "appa-card-reports"],
-    evidence: ["appa-card-findings", "appa-card-reports", "appa-card-paths"],
-    reports: [],
-  }[nav] || [];
-  return { base, keep };
-}
-
-function applyAppaCardFocus(nav) {
-  const { base, keep } = appaNavFocusMap(nav);
-  const grid = document.querySelector(".appa-dashboard-grid");
-  if (grid) {
-    grid.classList.toggle("is-focused", keep.length > 0);
-  }
-  base.forEach((id) => {
-    const node = document.getElementById(id);
-    if (!node) return;
-    const spotlight = keep.includes(id);
-    node.classList.toggle("is-spotlight", spotlight);
-    node.classList.toggle("is-dimmed", false);
-    node.classList.toggle("is-hidden", keep.length > 0 && !spotlight);
-  });
-}
-
-function renderAppaNavContext(nav) {
-  const root = document.getElementById("appa-nav-context");
-  if (!root) return;
-  root.innerHTML = "";
-  const tabContexts = {
-    zh: {
-      reports: ["报告视图", "这里看最新审计输出、历史报告和不同交付物类型。"],
-    },
-    en: {
-      reports: ["Reports View", "Use this to inspect the latest audit output, report history, and report types."],
-    },
-  };
-  const [title, copy] = uiState.appaTab !== "dashboard"
-    ? (tabContexts[uiState.language][uiState.appaTab] || appaNavContext(nav))
-    : appaNavContext(nav);
-  root.appendChild(el("strong", "", title));
-  root.appendChild(el("p", "", copy));
-}
-
-function renderAppaReports(data) {
-  const latestRoot = document.getElementById("appa-latest-report-hero");
-  latestRoot.innerHTML = "";
-  const latest = data.reports?.[0];
-  if (latest) {
-    const card = el("article", "appa-report-card");
-    const head = el("div", "appa-report-head");
-    head.appendChild(el("strong", "", latest.title));
-    head.appendChild(el("span", "chip latest", latest.report_type));
-    card.appendChild(head);
-    card.appendChild(el("p", "appa-report-summary", latest.summary));
-    const meta = el("div", "appa-report-meta");
-    meta.appendChild(el("span", "chip", `${uiState.language === "zh" ? "发现数" : "Findings"}: ${latest.finding_count}`));
-    meta.appendChild(el("span", "chip", `${uiState.language === "zh" ? "生成时间" : "Generated"}: ${formatTime(latest.generated_at)}`));
-    latestRoot.appendChild(card);
-    latestRoot.appendChild(meta);
-  } else {
-    latestRoot.appendChild(el("p", "appa-empty-copy", uiState.language === "zh" ? "当前还没有报告输出。" : "No report output yet."));
-  }
-
-  const reportList = document.getElementById("appa-reports-list");
-  reportList.innerHTML = "";
-  (data.reports || []).forEach((report, index) => {
-    const card = el("article", "appa-report-card");
-    const head = el("div", "appa-report-head");
-    head.appendChild(el("strong", "", report.title));
-    head.appendChild(el("span", `chip ${index === 0 ? "report-chip-watch" : "note"}`.trim(), report.report_type));
-    card.appendChild(head);
-    card.appendChild(el("p", "appa-report-summary", report.summary));
-    const meta = el("div", "appa-report-meta");
-    meta.appendChild(el("span", "chip", `${uiState.language === "zh" ? "运行" : "Run"}: ${report.run_id}`));
-    meta.appendChild(el("span", "chip", `${uiState.language === "zh" ? "发现" : "Findings"}: ${report.finding_count}`));
-    meta.appendChild(el("span", "chip", formatTime(report.generated_at)));
-    card.appendChild(meta);
-    reportList.appendChild(card);
-  });
-  if (!(data.reports || []).length) {
-    reportList.appendChild(el("p", "appa-empty-copy", uiState.language === "zh" ? "当前还没有历史报告。" : "No report history yet."));
-  }
-
-  const reportTypesRoot = document.getElementById("appa-report-types-list");
-  reportTypesRoot.innerHTML = "";
-  (data.overview.report_types || []).forEach((item, index) => {
-    const card = el("article", "appa-report-card");
-    card.appendChild(el("span", `chip ${index === 0 ? "report-chip-watch" : index === 1 ? "report-chip-alert" : "report-chip-calm"}`.trim(), localizedText(item.label)));
-    card.appendChild(el("p", "appa-report-summary", localizedText(item.summary)));
-    reportTypesRoot.appendChild(card);
-  });
-}
-
-function renderAppaDashboard(data) {
-  uiState.appaDashboard = data;
-  uiState.appaOverview = data.overview;
-  uiState.appaTab = uiState.appaTab || data.active_tab || "dashboard";
-  uiState.appaNav = uiState.appaNav || data.active_nav || "overview";
-  const overview = data.overview;
-  const setStackList = (id, builder) => {
-    const root = document.getElementById(id);
-    if (!root) return;
-    root.innerHTML = "";
-    builder(root);
-  };
-
-  const ui = t("ui");
-  const activeModes = (overview.modes || []).filter((mode) => mode.status === "active").length;
-  const v1Skills = (overview.skill_packs || []).filter((skillPack) => skillPack.phase.startsWith("V1"));
-  const discoveryRatio = overview.skill_packs?.length ? Math.round((v1Skills.length / overview.skill_packs.length) * 100) : 0;
-  const previewNames = ["Redacted_Preview.log", "Path_Evidence.json", "Audit_Chain.md", "Surface_Map.json"];
-  const targetNodes = data.findings?.map((item) => item.target_node) || ["internet-mgmt", "cdn-origin", "host-secret", "gcp-iam"];
-  const nodeChains = [
-    "Nodes: Surface → Identity → Persistence",
-    "Nodes: Edge → Origin → Exposure",
-    "Nodes: Host → Secrets → Pivot",
-    "Nodes: Cloud → IAM → Resource",
-  ];
-  const accentClass = (accent) => `is-${accent === "note" ? "cyan" : accent}`;
-  const localizedProduct = localizedText(overview.product_name);
-  document.getElementById("appa-wordmark").textContent = localizedProduct.split(" ")[0] || "APPA";
-  setAppaTab(uiState.appaTab);
-  setAppaNav(uiState.appaNav);
-  document.getElementById("appa-flow-title").textContent = uiState.language === "zh" ? "渗透测试流程" : "Pentest Workflow";
-  document.getElementById("appa-flow-copy").textContent = uiState.language === "zh"
-    ? "先确认范围，再建模路径、组织验证、归并发现、保留证据，最后进入报告。"
-    : "Confirm scope first, then model paths, orchestrate validation, merge findings, preserve evidence, and finish with reporting.";
-  document.getElementById("pentest-card-copy").textContent = localizedText(overview.product_summary);
-  document.getElementById("pentest-mission-copy").textContent = ui.pentestRunStatus;
-  const operatorNameNode = document.querySelector(".appa-operator-card strong");
-  if (operatorNameNode) operatorNameNode.textContent = data.operator_name || "Sentinel-01";
-  const uptime = typeof data.operator_status === "string" && data.operator_status.includes("·")
-    ? data.operator_status.split("·").slice(1).join("·").trim()
-    : "4H 12M";
-  const operatorState = uiState.language === "zh"
-    ? (activeModes > 0 ? "运行中" : "空闲")
-    : (activeModes > 0 ? "ACTIVE" : "IDLE");
-  document.getElementById("appa-operator-status").textContent = `${operatorState} · ${uptime}`;
-  document.getElementById("appa-path-count").textContent = `${(overview.attack_paths || []).length} ${uiState.language === "zh" ? "条已建模路径" : "PATHS MODELED"}`;
-
-  setStackList("pentest-metric-strip", (root) => {
-    (overview.metrics || []).slice(0, 3).forEach((metric) => {
-      const row = el("div", "appa-scope-row");
-      row.appendChild(el("span", "", localizedText(metric.label)));
-      row.appendChild(el("strong", "", metric.value));
-      root.appendChild(row);
-    });
-  });
-
-  setStackList("pentest-methodology-list", (root) => {
-    const chip = el("div", "appa-discovery-chip");
-    chip.appendChild(el("p", "card-copy", localizedText(overview.methodologies?.[0]?.emphasis || overview.mission_copy)));
-    const rail = el("div", "progress-rail");
-    const fill = el("div", "progress-fill progress-fill-green");
-    fill.style.width = `${Math.max(24, discoveryRatio)}%`;
-    rail.appendChild(fill);
-    chip.appendChild(rail);
-    const foot = el("div", "appa-discovery-foot");
-    foot.appendChild(el("span", "", `${discoveryRatio}% ${uiState.language === "zh" ? "V1 覆盖" : "V1 Coverage"}`));
-    foot.appendChild(el("span", "", `${(overview.attack_paths || []).length} ${uiState.language === "zh" ? "条路径建模" : "Paths modeled"}`));
-    chip.appendChild(foot);
-    root.appendChild(chip);
-  });
-
-  setStackList("pentest-skill-pack-list", (root) => {
-    (overview.skill_packs || []).slice(0, 3).forEach((skillPack, index) => {
-      const row = el("div", "appa-orchestration-row");
-      const head = el("div", "appa-orchestration-head");
-      head.appendChild(el("span", "", skillPack.skill_id));
-      const progressText = skillPack.phase === "V1+" ? (uiState.language === "zh" ? "排队中" : "Queued") : `${Math.max(42, 88 - index * 18)}%`;
-      head.appendChild(el("span", "", progressText));
-      row.appendChild(head);
-      row.appendChild(el("p", "card-copy", localizedText(skillPack.label)));
-      const rail = el("div", "progress-rail");
-      const fill = el("div", `progress-fill ${index === 0 ? "progress-fill-cyan" : index === 1 ? "progress-fill-green" : "progress-fill-primary"}`.trim());
-      fill.style.width = skillPack.phase === "V1+" ? "20%" : `${Math.max(42, 88 - index * 18)}%`;
-      rail.appendChild(fill);
-      row.appendChild(rail);
-      root.appendChild(row);
-    });
-  });
-
-  setStackList("pentest-attack-path-list", (root) => {
-    (overview.attack_paths || []).forEach((item, index) => {
-      const card = el("article", `appa-path-card ${accentClass(item.accent || "cyan")}`.trim());
-      const top = el("div", "appa-path-top");
-      const code = el("div", "appa-path-code");
-      code.appendChild(el("span", `chip ${item.accent || "note"}`.trim(), `AP-${String(index + 1).padStart(3, "0")}`));
-      const pathFinding = data.findings?.[index];
-      const rawPathStatus = String(pathFinding?.status || (index === 0 ? "confirmed" : "running")).toLowerCase();
-      const pathStatus = uiState.language === "zh"
-        ? ({confirmed: "已确认", running: "处理中", collecting: "收集中"}[rawPathStatus] || "处理中")
-        : rawPathStatus.toUpperCase();
-      code.appendChild(el("span", `chip ${rawPathStatus === "confirmed" ? "report-chip-alert" : "report-chip-watch"}`.trim(), pathStatus));
-      top.appendChild(code);
-      const confidence = pathFinding ? `${(pathFinding.likelihood * 22 + pathFinding.impact * 11.5).toFixed(1)}%` : `${(98.2 - index * 8.4).toFixed(1)}%`;
-      top.appendChild(el("span", "appa-path-status", confidence));
-      card.appendChild(top);
-      card.appendChild(el("h5", "", localizedText(item.label)));
-      card.appendChild(el("p", "card-copy", localizedText(item.detail)));
-      const bottom = el("div", "appa-path-bottom");
-      bottom.appendChild(el("span", "card-copy", nodeChains[index] || nodeChains[nodeChains.length - 1]));
-      bottom.appendChild(el("span", "appa-path-action", uiState.language === "zh" ? "查看证据 →" : "Analyze Evidence →"));
-      card.appendChild(bottom);
-      root.appendChild(card);
-    });
-  });
-
-  setStackList("pentest-roadmap-list", (root) => {
-    (overview.roles || []).forEach((role, index) => {
-      const card = el("div", "pentest-evidence-card");
-      card.appendChild(el("span", `chip ${index === 0 ? "latest" : index === 1 ? "good" : "note"}`.trim(), localizedText(role.label)));
-      card.appendChild(el("p", "card-copy", localizedText(role.responsibility)));
-      root.appendChild(card);
-    });
-  });
-
-  setStackList("pentest-report-list", (root) => {
-    const sourceReports = data.reports?.length ? data.reports : overview.report_types;
-    sourceReports.forEach((reportType, index) => {
-      const tone = index === 0 ? "report-chip-watch" : index === 1 ? "report-chip-alert" : "report-chip-calm";
-      const card = el("div", "pentest-evidence-card");
-      const label = reportType.label ? localizedText(reportType.label) : reportType.title;
-      const summary = reportType.summary ? localizedText(reportType.summary) : reportType.summary || reportType.report_type;
-      card.appendChild(el("span", `chip ${tone}`.trim(), label));
-      card.appendChild(el("p", "card-copy", summary));
-      root.appendChild(card);
-    });
-  });
-
-  setStackList("pentest-role-list", (root) => {
-    const severityCounts = (data.findings || []).reduce((acc, item) => {
-      acc[item.severity] = (acc[item.severity] || 0) + 1;
-      return acc;
-    }, {});
-    Object.entries(severityCounts).forEach(([severity, count]) => {
-      const tone = severity === "critical" ? "report-chip-alert" : severity === "high" ? "report-chip-watch" : "report-chip-calm";
-      const chip = el("span", `chip ${tone}`.trim(), `${severity.toUpperCase()}: ${count}`);
-      root.appendChild(chip);
-    });
-  });
-
-  setStackList("pentest-evidence-list", (root) => {
-    const sourceFindings = data.findings?.length ? data.findings : overview.evidence_lanes;
-    sourceFindings.forEach((item, index) => {
-      const row = el("div", "appa-finding-row");
-      const key = el("div", "appa-finding-key");
-      const title = item.label ? localizedText(item.label) : item.title;
-      const subtitle = item.key ? item.key.replace(/_/g, "-") : item.subtitle;
-      key.appendChild(el("strong", "", title));
-      key.appendChild(el("span", "", subtitle));
-      row.appendChild(key);
-      const bars = el("div", "appa-risk-bars");
-      const strength = item.likelihood || (index === 0 ? 4 : index === 1 ? 3 : 2);
-      const accent = item.severity === "critical" ? "amber" : item.severity === "high" ? "violet" : item.accent || "cyan";
-      for (let i = 0; i < 4; i += 1) {
-        bars.appendChild(el("i", `${i < strength ? `is-on is-${accent === "note" ? "cyan" : accent}` : ""}`.trim()));
-      }
-      row.appendChild(bars);
-      row.appendChild(el("div", "card-copy", item.target_node || targetNodes[index] || targetNodes[targetNodes.length - 1]));
-      row.appendChild(el("span", "appa-preview-pill", item.evidence_preview || previewNames[index] || previewNames[previewNames.length - 1]));
-      root.appendChild(row);
-    });
-  });
-
-  renderAppaReports(data);
-  renderAppaNavContext(uiState.appaNav);
-  applyAppaCardFocus(uiState.appaNav);
-  renderAppaWorkflow();
-}
-
 async function loadHealth() {
   try {
     await request("/health");
@@ -3475,90 +2783,6 @@ async function loadMemoryRules() {
 
 async function loadMemoryFeedback() {
   renderMemoryFeedback(await request("/memory/feedback"));
-}
-
-async function loadAppaOverview() {
-  renderAppaDashboard(await request("/appa/dashboard"));
-}
-
-async function launchAppaRun() {
-  const button = document.getElementById("appa-launch-scan");
-  const original = button.textContent;
-  button.textContent = uiState.language === "zh" ? "启动中..." : "Launching...";
-  button.disabled = true;
-  try {
-    const data = await request("/appa/runs", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({ mode: "green", triggered_by: "manual" }),
-    });
-    renderAppaDashboard(data.dashboard);
-  } finally {
-    button.disabled = false;
-    button.textContent = original;
-  }
-}
-
-async function downloadAppaReport() {
-  const response = await fetch("/appa/reports/latest/download");
-  const text = await response.text();
-  const blob = new Blob([text], { type: "text/markdown;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-  const anchor = document.createElement("a");
-  anchor.href = url;
-  anchor.download = `appa_audit_report_${new Date().toISOString().replace(/[:.]/g, "-")}.md`;
-  document.body.appendChild(anchor);
-  anchor.click();
-  anchor.remove();
-  URL.revokeObjectURL(url);
-}
-
-function setAppaTab(tab) {
-  const allowedTabs = ["dashboard", "reports"];
-  if (!allowedTabs.includes(tab)) {
-    tab = "dashboard";
-  }
-  uiState.appaTab = tab;
-  localStorage.setItem(storageKeys.appaTab, tab);
-  document.querySelectorAll(".appa-tab").forEach((item) => {
-    item.classList.toggle("active", item.id === `appa-tab-${tab}`);
-  });
-  document.getElementById("appa-panel-dashboard").classList.toggle("active", tab === "dashboard");
-  document.getElementById("appa-panel-reports").classList.toggle("active", tab === "reports");
-  const titleMap = uiState.language === "zh"
-    ? { dashboard: "任务工作台", reports: "审计报告" }
-    : { dashboard: "Mission Dashboard", reports: "Audit Reports" };
-  document.getElementById("section-pentest-title").textContent = titleMap[tab] || titleMap.dashboard;
-  if (tab === "reports") {
-    uiState.appaNav = "reports";
-    localStorage.setItem(storageKeys.appaNav, "reports");
-  } else if (uiState.appaNav === "reports") {
-    uiState.appaNav = "overview";
-    localStorage.setItem(storageKeys.appaNav, "overview");
-  }
-  document.querySelectorAll(".appa-side-link").forEach((item) => {
-    item.classList.toggle("active", item.id === `appa-nav-${uiState.appaNav}`);
-  });
-  renderAppaNavContext(uiState.appaNav);
-  renderAppaWorkflow();
-}
-
-function setAppaNav(nav) {
-  uiState.appaNav = nav;
-  localStorage.setItem(storageKeys.appaNav, nav);
-  if (nav === "reports") {
-    setAppaTab("reports");
-    return;
-  }
-  if (uiState.appaTab !== "dashboard") {
-    setAppaTab("dashboard");
-  }
-  document.querySelectorAll(".appa-side-link").forEach((item) => {
-    item.classList.toggle("active", item.id === `appa-nav-${nav}`);
-  });
-  renderAppaNavContext(nav);
-  applyAppaCardFocus(nav);
-  renderAppaWorkflow();
 }
 
 function bitdefenderPayload() {
@@ -3763,8 +2987,8 @@ document.getElementById("refresh-investigations").addEventListener("click", () =
 document.getElementById("refresh-history").addEventListener("click", () => withRefreshState("refresh-history", loadHistory));
 document.getElementById("refresh-skills").addEventListener("click", () => withRefreshState("refresh-skills", loadSkills));
 document.getElementById("refresh-matrix").addEventListener("click", () => withRefreshState("refresh-matrix", loadMatrix));
-document.getElementById("refresh-memory-rules").addEventListener("click", () => withRefreshState("refresh-memory-rules", loadMemoryRules));
-document.getElementById("refresh-memory-feedback").addEventListener("click", () => withRefreshState("refresh-memory-feedback", loadMemoryFeedback));
+if (document.getElementById("refresh-memory-rules")) document.getElementById("refresh-memory-rules").addEventListener("click", () => withRefreshState("refresh-memory-rules", loadMemoryRules));
+if (document.getElementById("refresh-memory-feedback")) document.getElementById("refresh-memory-feedback").addEventListener("click", () => withRefreshState("refresh-memory-feedback", loadMemoryFeedback));
 document.getElementById("run-bitdefender-test").addEventListener("click", () => runBitdefender("/integrations/bitdefender/test", uiState.language === "zh" ? "正在测试 Bitdefender 连接..." : "Testing Bitdefender connection..."));
 document.getElementById("run-bitdefender-network").addEventListener("click", () => runBitdefender("/integrations/bitdefender/network", uiState.language === "zh" ? "正在读取终端与资产清单..." : "Loading asset and endpoint inventory..."));
 document.getElementById("import-bitdefender-network").addEventListener("click", () => importBitdefender("/integrations/bitdefender/network/import", uiState.language === "zh" ? "正在把终端资产导入平台..." : "Importing asset inventory into the platform..."));
@@ -3774,17 +2998,6 @@ document.getElementById("import-bitdefender-latest-report").addEventListener("cl
 if (document.getElementById("import-bitdefender-reports")) document.getElementById("import-bitdefender-reports").addEventListener("click", () => importBitdefender("/integrations/bitdefender/reports/import", uiState.language === "zh" ? "正在导入报表目录元数据..." : "Importing report catalog metadata..."));
 document.getElementById("analyze").addEventListener("click", analyzeRaw);
 document.getElementById("download-report").addEventListener("click", downloadCurrentReport);
-if (document.getElementById("appa-launch-scan")) document.getElementById("appa-launch-scan").addEventListener("click", launchAppaRun);
-if (document.getElementById("appa-audit-report")) document.getElementById("appa-audit-report").addEventListener("click", downloadAppaReport);
-if (document.getElementById("appa-report-download-inline")) document.getElementById("appa-report-download-inline").addEventListener("click", downloadAppaReport);
-if (document.getElementById("appa-tab-dashboard")) document.getElementById("appa-tab-dashboard").addEventListener("click", () => setAppaTab("dashboard"));
-if (document.getElementById("appa-nav-overview")) document.getElementById("appa-nav-overview").addEventListener("click", () => setAppaNav("overview"));
-if (document.getElementById("appa-nav-targets")) document.getElementById("appa-nav-targets").addEventListener("click", () => setAppaNav("targets"));
-if (document.getElementById("appa-nav-attack-paths")) document.getElementById("appa-nav-attack-paths").addEventListener("click", () => setAppaNav("attack-paths"));
-if (document.getElementById("appa-nav-pentest-ai")) document.getElementById("appa-nav-pentest-ai").addEventListener("click", () => setAppaNav("pentest-ai"));
-if (document.getElementById("appa-nav-vulnerabilities")) document.getElementById("appa-nav-vulnerabilities").addEventListener("click", () => setAppaNav("vulnerabilities"));
-if (document.getElementById("appa-nav-evidence")) document.getElementById("appa-nav-evidence").addEventListener("click", () => setAppaNav("evidence"));
-if (document.getElementById("appa-nav-reports")) document.getElementById("appa-nav-reports").addEventListener("click", () => setAppaNav("reports"));
 const showCorrectionFormBtn = document.getElementById("show-correction-form");
 if (showCorrectionFormBtn) {
   showCorrectionFormBtn.addEventListener("click", () => {
@@ -3805,11 +3018,9 @@ document.getElementById("file-upload").addEventListener("change", (event) => {
   event.target.value = "";
 });
 document.getElementById("raw-input").addEventListener("input", persistRawInput);
-document.getElementById("skills-search").addEventListener("input", () => renderSkills(uiState.skills));
-document.getElementById("skills-search").addEventListener("input", () => renderMatrix(uiState.matrix));
 document.getElementById("skills-filter").addEventListener("change", () => renderSkills(uiState.skills));
 document.getElementById("skills-filter").addEventListener("change", () => renderMatrix(uiState.matrix));
-document.getElementById("memory-search").addEventListener("input", () => renderMemoryRules(uiState.memoryRules));
+if (document.getElementById("memory-search")) document.getElementById("memory-search").addEventListener("input", () => renderMemoryRules(uiState.memoryRules));
 document.getElementById("lang-zh").addEventListener("click", () => {
   uiState.language = "zh";
   localStorage.setItem(storageKeys.language, "zh");
@@ -3823,8 +3034,6 @@ document.getElementById("lang-en").addEventListener("click", () => {
 
 clearLegacyLocalState();
 uiState.language = localStorage.getItem(storageKeys.language) || "zh";
-uiState.appaTab = localStorage.getItem(storageKeys.appaTab) || "dashboard";
-uiState.appaNav = localStorage.getItem(storageKeys.appaNav) || "overview";
 document.getElementById("raw-input").value = "";
 if (document.getElementById("correction-source-type")) {
   fillSelectOptions("correction-source-type", sourceTypeOptions, uiState.language === "zh" ? "选择正确的来源类型" : "Choose the correct source type", sourceTypeLabel);

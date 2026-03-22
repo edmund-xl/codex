@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/static/styles.css?v=20260322-0456" />
+  <link rel="stylesheet" href="/static/styles.css?v=20260322-0542" />
 </head>
 <body>
   <div id="app">
@@ -183,7 +183,6 @@
               <button id="refresh-skills" class="ghost" type="button">刷新</button>
             </div>
             <div class="toolbar-inline toolbar-spaced">
-              <input id="skills-search" class="search-input" type="text" placeholder="搜索技能 / 模块 / 引擎" />
               <select id="skills-filter" class="filter-input">
                 <option value="all">全部能力</option>
                 <option value="appsec">应用安全</option>
@@ -212,17 +211,7 @@
 
       <section class="view" data-section="memory">
         <div class="memory-grid">
-          <section class="panel">
-            <div class="panel-head">
-              <h3 id="section-memory-rules-title">学习规则</h3>
-              <button id="refresh-memory-rules" class="ghost" type="button">刷新</button>
-            </div>
-            <div class="toolbar-inline toolbar-spaced">
-              <input id="memory-search" class="search-input" type="text" placeholder="搜索学习记录 / 文件 / 事件" />
-            </div>
-            <div id="memory-rules-output" class="stack-list loading-copy">加载中...</div>
-          </section>
-          <section class="panel">
+          <section class="panel panel-wide">
             <div class="panel-head">
               <h3 id="section-memory-feedback-title">学习反馈</h3>
               <button id="refresh-memory-feedback" class="ghost" type="button">刷新</button>
@@ -254,6 +243,6 @@
 
     </main>
   </div>
-  <script src="/static/app.js?v=20260322-0456"></script>
+  <script src="/static/app.js?v=20260322-0542"></script>
 </body>
 </html>
