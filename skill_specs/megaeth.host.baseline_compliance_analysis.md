@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 主机基线合规分析能力
 - 模块：Host
 - 当前状态：已接入，已完成 `training_case_001_host_baseline`
+- 适用产品域：安全日志分析
 
 ### 作用
 

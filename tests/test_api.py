@@ -12,6 +12,8 @@ from app.utils.store import REPORTS_FILE, prune_records
 
 client = TestClient(app)
 
+# Regression coverage for the security-log-analysis mainline.
+
 
 def make_xlsx_bytes(headers: list[str], rows: list[list[object]]) -> bytes:
     workbook = Workbook()

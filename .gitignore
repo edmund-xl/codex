@@ -17,3 +17,5 @@ data/archives/
 .run-*.pid
 .launchd-*.log
 reports/
+
+# Repository mainline is security-log-analysis only.
