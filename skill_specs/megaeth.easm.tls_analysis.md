@@ -7,6 +7,7 @@
 - 中文名称：MegaETH TLS 姿态分析能力
 - 模块：EASM
 - 当前状态：已接入，当前偏骨架
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -38,6 +39,7 @@
 - Name: MegaETH TLS Posture Analysis
 - Module: EASM
 - Status: Active, currently closer to a scaffold
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

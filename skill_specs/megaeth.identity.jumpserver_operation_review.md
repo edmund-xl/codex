@@ -7,6 +7,7 @@
 - 中文名称：MegaETH JumpServer 管理平面审计能力
 - 模块：Identity
 - 当前状态：已接入，负责 JumpServer 单文件操作记录审计
+- 适用产品域：安全日志分析
 - 执行方式：`规则版`
 
 ### 作用
@@ -58,6 +59,7 @@
 - Name: MegaETH JumpServer Operation Review
 - Module: Identity
 - Status: Active, for single-source JumpServer operation-audit inputs
+- Product Surface: Security Log Analysis
 - Execution mode: `Rule only`
 
 ### Purpose

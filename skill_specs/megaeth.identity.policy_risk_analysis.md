@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 身份策略风险分析能力
 - 模块：Identity
 - 当前状态：已接入，当前偏骨架
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -40,6 +41,7 @@
 - Name: MegaETH Identity Policy Risk Analysis
 - Module: Identity
 - Status: Active, currently closer to a scaffold
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

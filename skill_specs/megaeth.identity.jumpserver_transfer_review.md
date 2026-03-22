@@ -7,6 +7,7 @@
 - 中文名称：MegaETH JumpServer 文件传输审计能力
 - 模块：Identity
 - 当前状态：已接入，负责 JumpServer 单文件传输侧审计
+- 适用产品域：安全日志分析
 - 执行方式：`规则版`
 
 ### 作用
@@ -56,6 +57,7 @@
 - Name: MegaETH JumpServer Transfer Review
 - Module: Identity
 - Status: Active, for single-source JumpServer transfer audit
+- Product Surface: Security Log Analysis
 - Execution mode: `Rule only`
 
 ### Purpose

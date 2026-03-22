@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 端点行为分析能力
 - 模块：Endpoint
 - 当前状态：已接入，真实案例已多轮打磨
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -52,6 +53,7 @@
 - Name: MegaETH Endpoint Behavior Analysis
 - Module: Endpoint
 - Status: Active, refined through real report training
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

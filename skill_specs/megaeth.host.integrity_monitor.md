@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 主机完整性分析能力
 - 模块：Host
 - 当前状态：已接入
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -44,6 +45,7 @@
 - Name: MegaETH Host Integrity Analysis
 - Module: Host
 - Status: Active
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

@@ -7,6 +7,7 @@
 - 中文名称：MegaETH JumpServer 多源关联审计能力
 - 模块：Identity
 - 当前状态：已接入，已完成 `case_002_jumpserver_multisource` 第一轮训练落点
+- 适用产品域：安全日志分析
 - 执行方式：`可挂 Agent`
   - 默认仍可走规则版
   - 已接入 `megaeth.agent.core + Gemini` 试点，用于增强 `综合结论` 与 `7. 综合判断`
@@ -129,6 +130,7 @@
 - Name: MegaETH JumpServer Multi-Source Audit Review
 - Module: Identity
 - Status: Active, with the first training landing from `case_002_jumpserver_multisource`
+- Product Surface: Security Log Analysis
 - Execution mode: `Agent optional`
   - still works in rule-only mode by default
   - now piloted with `megaeth.agent.core + Gemini` to enhance the composite conclusion and section 7

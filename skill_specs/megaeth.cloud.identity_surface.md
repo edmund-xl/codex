@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 云身份面分析能力
 - 模块：Cloud
 - 当前状态：已接入，当前偏辅助
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -40,6 +41,7 @@
 - Name: MegaETH Cloud Identity Surface Analysis
 - Module: Cloud
 - Status: Active, currently more of a supporting capability
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

@@ -6,6 +6,7 @@
 - Skill ID: `megaeth.appsec.whitebox_recon`
 - 模块: `appsec`
 - 当前状态: `L2 / 规则与接入骨架已落地`
+- 适用产品域：安全日志分析
 
 ### 作用
 对应用代码与运行目标做白盒侦察，提炼潜在攻击面、关键入口、鉴权边界和后续应重点验证的路径。
@@ -43,6 +44,7 @@
 - Skill ID: `megaeth.appsec.whitebox_recon`
 - Module: `appsec`
 - Current status: `L2 / heuristic + integration scaffold`
+- Product Surface: Security Log Analysis
 
 ### Purpose
 Perform whitebox reconnaissance against an application codebase and running target to surface attack paths, trust boundaries, and validation priorities.

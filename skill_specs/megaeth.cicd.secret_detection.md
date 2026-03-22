@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 密钥与敏感信息检测能力
 - 模块：CI/CD
 - 当前状态：已接入，启发式实现
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -49,6 +50,7 @@
 - Name: MegaETH Secret Detection
 - Module: CI/CD
 - Status: Active, heuristic implementation
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

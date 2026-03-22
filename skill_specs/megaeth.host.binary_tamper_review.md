@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 二进制完整性审查能力
 - 模块：Host
 - 当前状态：已接入，当前仍偏骨架
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -39,6 +40,7 @@
 - Name: MegaETH Binary Integrity Review
 - Module: Host
 - Status: Active, currently closer to a scaffold
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

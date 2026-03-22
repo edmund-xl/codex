@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 外部资产发现能力
 - 模块：EASM
 - 当前状态：已接入
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -41,6 +42,7 @@
 - Name: MegaETH External Asset Discovery
 - Module: EASM
 - Status: Active
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

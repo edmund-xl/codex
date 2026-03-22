@@ -6,6 +6,7 @@
 - Skill ID: `megaeth.appsec.whitebox_report_synthesis`
 - 模块: `appsec`
 - 当前状态: `L2 / 规则与接入骨架已落地`
+- 适用产品域：安全日志分析
 
 ### 作用
 将白盒侦察与验证结果汇总为一份更适合交付的应用安全综合报告，突出结论、验证结果和优先治理动作。
@@ -43,6 +44,7 @@
 - Skill ID: `megaeth.appsec.whitebox_report_synthesis`
 - Module: `appsec`
 - Current status: `L2 / heuristic + integration scaffold`
+- Product Surface: Security Log Analysis
 
 ### Purpose
 Synthesize whitebox recon and validation outputs into a delivery-grade application security report that highlights conclusions, proof-backed issues, and priority actions.

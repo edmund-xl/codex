@@ -112,6 +112,7 @@
 - Name: MegaETH Baseline Compliance Analysis
 - Module: Host
 - Status: Active, trained with `training_case_001_host_baseline`
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

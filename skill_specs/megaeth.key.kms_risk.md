@@ -7,6 +7,7 @@
 - 中文名称：MegaETH KMS 风险分析能力
 - 模块：Key
 - 当前状态：已接入，启发式实现
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -46,6 +47,7 @@
 - Name: MegaETH KMS Risk Analysis
 - Module: Key
 - Status: Active, heuristic implementation
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 外部情报关联能力
 - 模块：EASM
 - 当前状态：已接入，当前偏辅助
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -40,6 +41,7 @@
 - Name: MegaETH External Intelligence Correlation
 - Module: EASM
 - Status: Active, currently supportive
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

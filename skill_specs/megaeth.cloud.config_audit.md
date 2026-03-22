@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 云配置风险能力
 - 模块：Cloud
 - 当前状态：已接入，启发式实现
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -48,6 +49,7 @@
 - Name: MegaETH Cloud Configuration Risk
 - Module: Cloud
 - Status: Active, heuristic implementation
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

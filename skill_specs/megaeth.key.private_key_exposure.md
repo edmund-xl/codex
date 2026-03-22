@@ -7,6 +7,7 @@
 - 中文名称：MegaETH 私钥暴露检测能力
 - 模块：Key
 - 当前状态：已接入，当前偏基础
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -40,6 +41,7 @@
 - Name: MegaETH Private Key Exposure Detection
 - Module: Key
 - Status: Active, currently basic
+- Product Surface: Security Log Analysis
 
 ### Purpose
 

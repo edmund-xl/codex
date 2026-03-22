@@ -7,6 +7,7 @@
 - 中文名称：MegaETH PR 安全审查能力
 - 模块：CI/CD
 - 当前状态：已接入，启发式实现
+- 适用产品域：安全日志分析
 
 ### 作用
 
@@ -47,6 +48,7 @@
 - Name: MegaETH PR Security Review
 - Module: CI/CD
 - Status: Active, heuristic implementation
+- Product Surface: Security Log Analysis
 
 ### Purpose
 
