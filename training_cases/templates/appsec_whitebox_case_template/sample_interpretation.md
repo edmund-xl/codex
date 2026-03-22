@@ -1,4 +1,5 @@
 # Sample Interpretation Template
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 

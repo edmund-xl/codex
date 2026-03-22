@@ -1,4 +1,5 @@
 # MegaETH AI Security 架构说明 / Architecture Notes
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 

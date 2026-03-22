@@ -1,4 +1,5 @@
 # System Rules Template
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 

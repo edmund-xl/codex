@@ -1,4 +1,5 @@
 # MegaETH Agent / MCP Library
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 

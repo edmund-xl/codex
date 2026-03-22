@@ -1,4 +1,5 @@
 # `megaeth.easm.asset_discovery`
+<!-- security-log-analysis mainline -->
 
 ## 中文
 

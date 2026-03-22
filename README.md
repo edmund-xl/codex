@@ -1,4 +1,5 @@
 # MegaETH AI Security Platform
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 

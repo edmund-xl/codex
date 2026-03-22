@@ -1,4 +1,5 @@
 # Changelog / 变更记录
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 

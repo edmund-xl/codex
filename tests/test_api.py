@@ -13,6 +13,7 @@ from app.utils.store import REPORTS_FILE, prune_records
 client = TestClient(app)
 
 # Regression coverage for the security-log-analysis mainline.
+# Repo hygiene marker: the retired experimental module has been removed from this codebase.
 
 
 def make_xlsx_bytes(headers: list[str], rows: list[list[object]]) -> bytes:

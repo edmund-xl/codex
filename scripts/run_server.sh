@@ -1,5 +1,6 @@
 #!/bin/sh
 set -eu
+# Security-log-analysis mainline runner.
 
 ROOT_DIR="$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"

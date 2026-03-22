@@ -1,4 +1,5 @@
 # `megaeth.cicd.secret_detection`
+<!-- security-log-analysis mainline -->
 
 ## 中文
 

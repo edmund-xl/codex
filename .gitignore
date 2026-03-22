@@ -1,3 +1,5 @@
+# Security-log-analysis mainline repository ignore rules.
+# Python virtual environments
 .DS_Store
 .venv/
 .runtime-venv/

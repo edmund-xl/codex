@@ -1,4 +1,5 @@
 # `megaeth.host.binary_tamper_review`
+<!-- security-log-analysis mainline -->
 
 ## 中文
 

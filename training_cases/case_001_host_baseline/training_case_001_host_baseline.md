@@ -1,4 +1,5 @@
 # AI Security Training Case #001
+<!-- security-log-analysis mainline -->
 
 ## Case Type
 Host Security Baseline Assessment

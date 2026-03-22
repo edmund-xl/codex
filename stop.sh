@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+# Security-log-analysis mainline shutdown entry.
 
 PORT="${PORT:-8011}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

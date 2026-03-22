@@ -1,4 +1,5 @@
 # 版本发布清单 / Release Checklist
+<!-- security-log-analysis mainline -->
 
 ## 中文版（按顺序执行）
 

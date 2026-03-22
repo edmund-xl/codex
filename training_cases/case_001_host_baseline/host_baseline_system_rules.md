@@ -1,4 +1,5 @@
 # AI Security System Rules
+<!-- security-log-analysis mainline -->
 ## Host Baseline Assessment 规则
 
 ## 1 Parser 规则

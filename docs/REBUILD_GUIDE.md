@@ -1,4 +1,5 @@
 # Rebuild Guide / 重建指南
+<!-- security-log-analysis mainline -->
 
 ## 中文版
 
